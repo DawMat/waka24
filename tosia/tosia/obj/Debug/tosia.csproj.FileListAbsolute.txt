@@ -1,0 +1,9 @@
+C:\Users\DawidMatuszynski\documents\visual studio 2017\Projects\tosia\tosia\bin\Debug\tosia.exe.config
+C:\Users\DawidMatuszynski\documents\visual studio 2017\Projects\tosia\tosia\bin\Debug\tosia.exe
+C:\Users\DawidMatuszynski\documents\visual studio 2017\Projects\tosia\tosia\bin\Debug\tosia.pdb
+C:\Users\DawidMatuszynski\documents\visual studio 2017\Projects\tosia\tosia\obj\Debug\tosia.csprojResolveAssemblyReference.cache
+C:\Users\DawidMatuszynski\documents\visual studio 2017\Projects\tosia\tosia\obj\Debug\tosia.Form1.resources
+C:\Users\DawidMatuszynski\documents\visual studio 2017\Projects\tosia\tosia\obj\Debug\tosia.Properties.Resources.resources
+C:\Users\DawidMatuszynski\documents\visual studio 2017\Projects\tosia\tosia\obj\Debug\tosia.csproj.GenerateResource.Cache
+C:\Users\DawidMatuszynski\documents\visual studio 2017\Projects\tosia\tosia\obj\Debug\tosia.exe
+C:\Users\DawidMatuszynski\documents\visual studio 2017\Projects\tosia\tosia\obj\Debug\tosia.pdb
