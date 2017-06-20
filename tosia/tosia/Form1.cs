@@ -13,8 +13,22 @@ namespace tosia
 {
     public partial class Form1 : Form
     {
-        public System.Media.SoundPlayer bylaSobieZabkaMala = new System.Media.SoundPlayer();
-        public System.Media.SoundPlayer kumkum = new System.Media.SoundPlayer();
+        private void playSound(string path)
+        {
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+
+            player.SoundLocation = path;
+
+            if (path == "stop")
+            {
+                player.Stop();
+            }
+            else
+            {
+                player.Load();
+                player.Play();
+            }
+        }
 
         public Form1()
         {
@@ -22,14 +36,19 @@ namespace tosia
 
             label_Tytuł.Text = NazwyGUI.label_Tytuł;
             label_Waka.Text = NazwyGUI.label_Waka;
-            label_MenuTytuł.Text = NazwyGUI.label_MenuTytuł;
-            label_Menu1.Text = NazwyGUI.labeMenu1;
-            label_Menu2.Text = NazwyGUI.labeMenu2;
-            label_Menu3.Text = NazwyGUI.labeMenu3;
-            label_Menu4.Text = NazwyGUI.labeMenu4;
-            label_Menu5.Text = NazwyGUI.labeMenu5;
-            label_Menu1Tytuł.Text = NazwyGUI.label_Menu1Tytuł;
-            label_Menu1Podtytuł.Text = NazwyGUI.label_Menu1Podtytuł;
+            label_EdukacjaMatematyczna.Text = NazwyGUI.label_EdukacjaMatematyczna;
+            label_OperacjeLogiczne.Text = NazwyGUI.label_OperacjeLogiczne;
+            label_Klasyfikacja.Text = NazwyGUI.label_Klasyfikacja;
+            label_LiczbaNat.Text = NazwyGUI.label_LiczbaNat;
+            label_ArytmetykaLiczb.Text = NazwyGUI.label_ArytmetykaLiczb;
+            label_Geometria.Text = NazwyGUI.label_Geometria;
+            label_Płaska.Text = NazwyGUI.label_Płaska;
+            label_Przestrzenna.Text = NazwyGUI.label_Przestrzenna;
+            label_Pomiar.Text = NazwyGUI.label_Pomiar;
+            label_Długości.Text = NazwyGUI.label_Długości;
+            label_Czasu.Text = NazwyGUI.label_Czasu;
+            label_OperacjeLogiczne2.Text = NazwyGUI.label_OperacjeLogiczne;
+            label_Myślenie.Text = NazwyGUI.label_Myślenie;
             label_Zad1.Text = NazwyGUI.label_Zad1;
             label_Zad2.Text = NazwyGUI.label_Zad2;
             label_Zad3.Text = NazwyGUI.label_Zad3;
@@ -53,7 +72,7 @@ namespace tosia
 
         private void label_Operacja_Click(object sender, EventArgs e)
         {
-            tabControl.SelectedTab = tabPage_Menu1;
+
         }
 
         private void pictureBox_Menu_Click(object sender, EventArgs e)
@@ -68,47 +87,50 @@ namespace tosia
 
         private void pictureBox_Next_Click(object sender, EventArgs e)
         {
-            tabControl.SelectedTab = tabPage_Menu;
-            bylaSobieZabkaMala.Stop();
-        }
+            playSound("stop");
 
+            tabControl.SelectedTab = tabPage_Menu;
+        }
+        
         private void pictureBox_TosiaHome_Click(object sender, EventArgs e)
         {
-            kumkum.SoundLocation = "kumkum.wav";
-            kumkum.Play();
+            playSound("sounds/kumkum.wav");
+
             pictureBox_Yes.Visible = true;
             pictureBox_No.Visible = true;
         }
 
         private void pictureBox_TosiaSong_Click(object sender, EventArgs e)
         {
-            bylaSobieZabkaMala.SoundLocation = "bylaSobieZabkaMala.wav";
-            bylaSobieZabkaMala.Play();
+            playSound("sounds/bylaSobieZabkaMala.wav");
+
             pictureBox_Next.Visible = true;
             label_tekst.Visible = true;
-
         }
 
         private void pictureBox_TosiaMenu_Click(object sender, EventArgs e)
         {
-            kumkum.SoundLocation = "kumkum.wav";
-            kumkum.Play();
-            label_Menu1.Enabled = true;
+            playSound("sounds/kumkum.wav");
         }
 
         private void pictureBox_TosiaZadania_Click(object sender, EventArgs e)
         {
-            kumkum.SoundLocation = "kumkum.wav";
-            kumkum.Play();
+            playSound("sounds/kumkum.wav");
+
             pictureBox_Z1.Enabled = true;
             pictureBox_Z1.Image= Resources._1Color;
         }
 
         private void pictureBox_TosiaZ1_Click(object sender, EventArgs e)
         {
-            kumkum.SoundLocation = "kumkum.wav";
-            kumkum.Play();
+            playSound("sounds/kumkum.wav");
+
             label_Zadanie.Visible = true;
+        }
+
+        private void label_Menu1a_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedTab = tabPage_Menu1;
         }
     }
 }

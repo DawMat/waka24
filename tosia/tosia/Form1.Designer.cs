@@ -41,20 +41,21 @@
             this.label_Waka = new System.Windows.Forms.Label();
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPage_Menu = new System.Windows.Forms.TabPage();
+            this.label_Klasyfikacja = new System.Windows.Forms.Label();
             this.pictureBox_TosiaMenu = new System.Windows.Forms.PictureBox();
-            this.label_Menu5 = new System.Windows.Forms.Label();
-            this.label_Menu4 = new System.Windows.Forms.Label();
-            this.label_Menu3 = new System.Windows.Forms.Label();
-            this.label_Menu2 = new System.Windows.Forms.Label();
-            this.label_Menu1 = new System.Windows.Forms.Label();
-            this.label_MenuTytuł = new System.Windows.Forms.Label();
+            this.label_Pomiar = new System.Windows.Forms.Label();
+            this.label_Geometria = new System.Windows.Forms.Label();
+            this.label_ArytmetykaLiczb = new System.Windows.Forms.Label();
+            this.label_LiczbaNat = new System.Windows.Forms.Label();
+            this.label_OperacjeLogiczne = new System.Windows.Forms.Label();
+            this.label_EdukacjaMatematyczna = new System.Windows.Forms.Label();
             this.tabPage_Menu1 = new System.Windows.Forms.TabPage();
-            this.pictureBox_TosiaZadania = new System.Windows.Forms.PictureBox();
             this.label_Zad3 = new System.Windows.Forms.Label();
             this.label_Zad2 = new System.Windows.Forms.Label();
             this.label_Zad1 = new System.Windows.Forms.Label();
-            this.label_Menu1Podtytuł = new System.Windows.Forms.Label();
-            this.label_Menu1Tytuł = new System.Windows.Forms.Label();
+            this.label_Myślenie = new System.Windows.Forms.Label();
+            this.label_OperacjeLogiczne2 = new System.Windows.Forms.Label();
+            this.pictureBox_TosiaZadania = new System.Windows.Forms.PictureBox();
             this.pictureBox_Menu = new System.Windows.Forms.PictureBox();
             this.pictureBox_Z3 = new System.Windows.Forms.PictureBox();
             this.pictureBox_Z2 = new System.Windows.Forms.PictureBox();
@@ -65,6 +66,10 @@
             this.label_Z1Tytuł = new System.Windows.Forms.Label();
             this.pictureBox_Exit = new System.Windows.Forms.PictureBox();
             this.pictureBox_UE = new System.Windows.Forms.PictureBox();
+            this.label_Przestrzenna = new System.Windows.Forms.Label();
+            this.label_Płaska = new System.Windows.Forms.Label();
+            this.label_Długości = new System.Windows.Forms.Label();
+            this.label_Czasu = new System.Windows.Forms.Label();
             this.tabPage_Song.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaSong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Next)).BeginInit();
@@ -205,7 +210,7 @@
             this.label_Tytuł.AutoSize = true;
             this.label_Tytuł.Font = new System.Drawing.Font("Arial", 52F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_Tytuł.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(177)))), ((int)(((byte)(61)))));
-            this.label_Tytuł.Location = new System.Drawing.Point(0, 85);
+            this.label_Tytuł.Location = new System.Drawing.Point(4, 9);
             this.label_Tytuł.Margin = new System.Windows.Forms.Padding(0);
             this.label_Tytuł.Name = "label_Tytuł";
             this.label_Tytuł.Size = new System.Drawing.Size(395, 81);
@@ -240,13 +245,18 @@
             // 
             // tabPage_Menu
             // 
+            this.tabPage_Menu.Controls.Add(this.label_Czasu);
+            this.tabPage_Menu.Controls.Add(this.label_Długości);
+            this.tabPage_Menu.Controls.Add(this.label_Płaska);
+            this.tabPage_Menu.Controls.Add(this.label_Przestrzenna);
+            this.tabPage_Menu.Controls.Add(this.label_Klasyfikacja);
             this.tabPage_Menu.Controls.Add(this.pictureBox_TosiaMenu);
-            this.tabPage_Menu.Controls.Add(this.label_Menu5);
-            this.tabPage_Menu.Controls.Add(this.label_Menu4);
-            this.tabPage_Menu.Controls.Add(this.label_Menu3);
-            this.tabPage_Menu.Controls.Add(this.label_Menu2);
-            this.tabPage_Menu.Controls.Add(this.label_Menu1);
-            this.tabPage_Menu.Controls.Add(this.label_MenuTytuł);
+            this.tabPage_Menu.Controls.Add(this.label_Pomiar);
+            this.tabPage_Menu.Controls.Add(this.label_Geometria);
+            this.tabPage_Menu.Controls.Add(this.label_ArytmetykaLiczb);
+            this.tabPage_Menu.Controls.Add(this.label_LiczbaNat);
+            this.tabPage_Menu.Controls.Add(this.label_OperacjeLogiczne);
+            this.tabPage_Menu.Controls.Add(this.label_EdukacjaMatematyczna);
             this.tabPage_Menu.Location = new System.Drawing.Point(4, 16);
             this.tabPage_Menu.Name = "tabPage_Menu";
             this.tabPage_Menu.Padding = new System.Windows.Forms.Padding(3);
@@ -255,110 +265,121 @@
             this.tabPage_Menu.Text = "tabPage_Menu";
             this.tabPage_Menu.UseVisualStyleBackColor = true;
             // 
+            // label_Klasyfikacja
+            // 
+            this.label_Klasyfikacja.AutoSize = true;
+            this.label_Klasyfikacja.BackColor = System.Drawing.Color.Transparent;
+            this.label_Klasyfikacja.Font = new System.Drawing.Font("ElementarzDwa", 20F, System.Drawing.FontStyle.Bold);
+            this.label_Klasyfikacja.ForeColor = System.Drawing.Color.Blue;
+            this.label_Klasyfikacja.Location = new System.Drawing.Point(103, 181);
+            this.label_Klasyfikacja.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Klasyfikacja.Name = "label_Klasyfikacja";
+            this.label_Klasyfikacja.Size = new System.Drawing.Size(208, 34);
+            this.label_Klasyfikacja.TabIndex = 11;
+            this.label_Klasyfikacja.Text = "label_Klasyfikacja";
+            this.label_Klasyfikacja.Click += new System.EventHandler(this.label_Menu1a_Click);
+            // 
             // pictureBox_TosiaMenu
             // 
             this.pictureBox_TosiaMenu.Image = global::tosia.Properties.Resources.frog;
-            this.pictureBox_TosiaMenu.Location = new System.Drawing.Point(780, 324);
+            this.pictureBox_TosiaMenu.Location = new System.Drawing.Point(421, 347);
             this.pictureBox_TosiaMenu.Margin = new System.Windows.Forms.Padding(25);
             this.pictureBox_TosiaMenu.Name = "pictureBox_TosiaMenu";
-            this.pictureBox_TosiaMenu.Size = new System.Drawing.Size(210, 150);
+            this.pictureBox_TosiaMenu.Size = new System.Drawing.Size(182, 130);
             this.pictureBox_TosiaMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_TosiaMenu.TabIndex = 10;
             this.pictureBox_TosiaMenu.TabStop = false;
             this.pictureBox_TosiaMenu.Click += new System.EventHandler(this.pictureBox_TosiaMenu_Click);
             // 
-            // label_Menu5
+            // label_Pomiar
             // 
-            this.label_Menu5.AutoSize = true;
-            this.label_Menu5.BackColor = System.Drawing.Color.Transparent;
-            this.label_Menu5.Enabled = false;
-            this.label_Menu5.Font = new System.Drawing.Font("ElementarzDwa", 30F);
-            this.label_Menu5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_Menu5.Location = new System.Drawing.Point(188, 381);
-            this.label_Menu5.Margin = new System.Windows.Forms.Padding(10);
-            this.label_Menu5.Name = "label_Menu5";
-            this.label_Menu5.Size = new System.Drawing.Size(209, 50);
-            this.label_Menu5.TabIndex = 9;
-            this.label_Menu5.Text = "label_Menu5";
+            this.label_Pomiar.AutoSize = true;
+            this.label_Pomiar.BackColor = System.Drawing.Color.Transparent;
+            this.label_Pomiar.Enabled = false;
+            this.label_Pomiar.Font = new System.Drawing.Font("ElementarzDwa", 25F);
+            this.label_Pomiar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Pomiar.Location = new System.Drawing.Point(646, 298);
+            this.label_Pomiar.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Pomiar.Name = "label_Pomiar";
+            this.label_Pomiar.Size = new System.Drawing.Size(174, 43);
+            this.label_Pomiar.TabIndex = 9;
+            this.label_Pomiar.Text = "label_Pomiar";
             // 
-            // label_Menu4
+            // label_Geometria
             // 
-            this.label_Menu4.AutoSize = true;
-            this.label_Menu4.BackColor = System.Drawing.Color.Transparent;
-            this.label_Menu4.Enabled = false;
-            this.label_Menu4.Font = new System.Drawing.Font("ElementarzDwa", 30F);
-            this.label_Menu4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_Menu4.Location = new System.Drawing.Point(188, 311);
-            this.label_Menu4.Margin = new System.Windows.Forms.Padding(10);
-            this.label_Menu4.Name = "label_Menu4";
-            this.label_Menu4.Size = new System.Drawing.Size(208, 50);
-            this.label_Menu4.TabIndex = 8;
-            this.label_Menu4.Text = "label_Menu4";
+            this.label_Geometria.AutoSize = true;
+            this.label_Geometria.BackColor = System.Drawing.Color.Transparent;
+            this.label_Geometria.Enabled = false;
+            this.label_Geometria.Font = new System.Drawing.Font("ElementarzDwa", 25F);
+            this.label_Geometria.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Geometria.Location = new System.Drawing.Point(652, 118);
+            this.label_Geometria.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Geometria.Name = "label_Geometria";
+            this.label_Geometria.Size = new System.Drawing.Size(203, 43);
+            this.label_Geometria.TabIndex = 8;
+            this.label_Geometria.Text = "label_Geometria";
             // 
-            // label_Menu3
+            // label_ArytmetykaLiczb
             // 
-            this.label_Menu3.AutoSize = true;
-            this.label_Menu3.BackColor = System.Drawing.Color.Transparent;
-            this.label_Menu3.Enabled = false;
-            this.label_Menu3.Font = new System.Drawing.Font("ElementarzDwa", 30F);
-            this.label_Menu3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_Menu3.Location = new System.Drawing.Point(188, 241);
-            this.label_Menu3.Margin = new System.Windows.Forms.Padding(10);
-            this.label_Menu3.Name = "label_Menu3";
-            this.label_Menu3.Size = new System.Drawing.Size(208, 50);
-            this.label_Menu3.TabIndex = 7;
-            this.label_Menu3.Text = "label_Menu3";
+            this.label_ArytmetykaLiczb.AutoSize = true;
+            this.label_ArytmetykaLiczb.BackColor = System.Drawing.Color.Transparent;
+            this.label_ArytmetykaLiczb.Enabled = false;
+            this.label_ArytmetykaLiczb.Font = new System.Drawing.Font("ElementarzDwa", 25F);
+            this.label_ArytmetykaLiczb.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_ArytmetykaLiczb.Location = new System.Drawing.Point(63, 298);
+            this.label_ArytmetykaLiczb.Margin = new System.Windows.Forms.Padding(10);
+            this.label_ArytmetykaLiczb.Name = "label_ArytmetykaLiczb";
+            this.label_ArytmetykaLiczb.Size = new System.Drawing.Size(282, 43);
+            this.label_ArytmetykaLiczb.TabIndex = 7;
+            this.label_ArytmetykaLiczb.Text = "label_ArytmetykaLiczb";
             // 
-            // label_Menu2
+            // label_LiczbaNat
             // 
-            this.label_Menu2.AutoSize = true;
-            this.label_Menu2.BackColor = System.Drawing.Color.Transparent;
-            this.label_Menu2.Enabled = false;
-            this.label_Menu2.Font = new System.Drawing.Font("ElementarzDwa", 30F);
-            this.label_Menu2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_Menu2.Location = new System.Drawing.Point(188, 171);
-            this.label_Menu2.Margin = new System.Windows.Forms.Padding(10);
-            this.label_Menu2.Name = "label_Menu2";
-            this.label_Menu2.Size = new System.Drawing.Size(207, 50);
-            this.label_Menu2.TabIndex = 6;
-            this.label_Menu2.Text = "label_Menu2";
+            this.label_LiczbaNat.AutoSize = true;
+            this.label_LiczbaNat.BackColor = System.Drawing.Color.Transparent;
+            this.label_LiczbaNat.Font = new System.Drawing.Font("ElementarzDwa", 25F, System.Drawing.FontStyle.Bold);
+            this.label_LiczbaNat.ForeColor = System.Drawing.Color.Blue;
+            this.label_LiczbaNat.Location = new System.Drawing.Point(63, 235);
+            this.label_LiczbaNat.Margin = new System.Windows.Forms.Padding(10);
+            this.label_LiczbaNat.Name = "label_LiczbaNat";
+            this.label_LiczbaNat.Size = new System.Drawing.Size(214, 43);
+            this.label_LiczbaNat.TabIndex = 6;
+            this.label_LiczbaNat.Text = "label_LiczbaNat";
             // 
-            // label_Menu1
+            // label_OperacjeLogiczne
             // 
-            this.label_Menu1.AutoSize = true;
-            this.label_Menu1.BackColor = System.Drawing.Color.Transparent;
-            this.label_Menu1.Enabled = false;
-            this.label_Menu1.Font = new System.Drawing.Font("ElementarzDwa", 30F);
-            this.label_Menu1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_Menu1.Location = new System.Drawing.Point(188, 101);
-            this.label_Menu1.Margin = new System.Windows.Forms.Padding(10);
-            this.label_Menu1.Name = "label_Menu1";
-            this.label_Menu1.Size = new System.Drawing.Size(202, 50);
-            this.label_Menu1.TabIndex = 5;
-            this.label_Menu1.Text = "label_Menu1";
-            this.label_Menu1.Click += new System.EventHandler(this.label_Operacja_Click);
+            this.label_OperacjeLogiczne.AutoSize = true;
+            this.label_OperacjeLogiczne.BackColor = System.Drawing.Color.Transparent;
+            this.label_OperacjeLogiczne.Font = new System.Drawing.Font("ElementarzDwa", 25F, System.Drawing.FontStyle.Bold);
+            this.label_OperacjeLogiczne.ForeColor = System.Drawing.Color.Blue;
+            this.label_OperacjeLogiczne.Location = new System.Drawing.Point(63, 118);
+            this.label_OperacjeLogiczne.Margin = new System.Windows.Forms.Padding(10);
+            this.label_OperacjeLogiczne.Name = "label_OperacjeLogiczne";
+            this.label_OperacjeLogiczne.Size = new System.Drawing.Size(303, 43);
+            this.label_OperacjeLogiczne.TabIndex = 5;
+            this.label_OperacjeLogiczne.Text = "label_OperacjeLogiczne";
             // 
-            // label_MenuTytuł
+            // label_EdukacjaMatematyczna
             // 
-            this.label_MenuTytuł.AutoSize = true;
-            this.label_MenuTytuł.BackColor = System.Drawing.Color.Transparent;
-            this.label_MenuTytuł.Font = new System.Drawing.Font("ElementarzDwa", 40F, System.Drawing.FontStyle.Bold);
-            this.label_MenuTytuł.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_MenuTytuł.Location = new System.Drawing.Point(104, 13);
-            this.label_MenuTytuł.Margin = new System.Windows.Forms.Padding(10);
-            this.label_MenuTytuł.Name = "label_MenuTytuł";
-            this.label_MenuTytuł.Size = new System.Drawing.Size(375, 68);
-            this.label_MenuTytuł.TabIndex = 4;
-            this.label_MenuTytuł.Text = "label_MenuTytuł";
+            this.label_EdukacjaMatematyczna.AutoSize = true;
+            this.label_EdukacjaMatematyczna.BackColor = System.Drawing.Color.Transparent;
+            this.label_EdukacjaMatematyczna.Font = new System.Drawing.Font("ElementarzDwa", 40F, System.Drawing.FontStyle.Bold);
+            this.label_EdukacjaMatematyczna.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_EdukacjaMatematyczna.Location = new System.Drawing.Point(50, 13);
+            this.label_EdukacjaMatematyczna.Margin = new System.Windows.Forms.Padding(10);
+            this.label_EdukacjaMatematyczna.Name = "label_EdukacjaMatematyczna";
+            this.label_EdukacjaMatematyczna.Size = new System.Drawing.Size(622, 68);
+            this.label_EdukacjaMatematyczna.TabIndex = 4;
+            this.label_EdukacjaMatematyczna.Text = "label_EdukacjaMatematyczna";
             // 
             // tabPage_Menu1
             // 
-            this.tabPage_Menu1.Controls.Add(this.pictureBox_TosiaZadania);
             this.tabPage_Menu1.Controls.Add(this.label_Zad3);
             this.tabPage_Menu1.Controls.Add(this.label_Zad2);
             this.tabPage_Menu1.Controls.Add(this.label_Zad1);
-            this.tabPage_Menu1.Controls.Add(this.label_Menu1Podtytuł);
-            this.tabPage_Menu1.Controls.Add(this.label_Menu1Tytuł);
+            this.tabPage_Menu1.Controls.Add(this.label_Myślenie);
+            this.tabPage_Menu1.Controls.Add(this.label_OperacjeLogiczne2);
+            this.tabPage_Menu1.Controls.Add(this.pictureBox_TosiaZadania);
             this.tabPage_Menu1.Controls.Add(this.pictureBox_Menu);
             this.tabPage_Menu1.Controls.Add(this.pictureBox_Z3);
             this.tabPage_Menu1.Controls.Add(this.pictureBox_Z2);
@@ -370,18 +391,6 @@
             this.tabPage_Menu1.TabIndex = 3;
             this.tabPage_Menu1.Text = "tabPage_Menu1";
             this.tabPage_Menu1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox_TosiaZadania
-            // 
-            this.pictureBox_TosiaZadania.Image = global::tosia.Properties.Resources.frog;
-            this.pictureBox_TosiaZadania.Location = new System.Drawing.Point(780, 324);
-            this.pictureBox_TosiaZadania.Margin = new System.Windows.Forms.Padding(25);
-            this.pictureBox_TosiaZadania.Name = "pictureBox_TosiaZadania";
-            this.pictureBox_TosiaZadania.Size = new System.Drawing.Size(210, 150);
-            this.pictureBox_TosiaZadania.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_TosiaZadania.TabIndex = 15;
-            this.pictureBox_TosiaZadania.TabStop = false;
-            this.pictureBox_TosiaZadania.Click += new System.EventHandler(this.pictureBox_TosiaZadania_Click);
             // 
             // label_Zad3
             // 
@@ -413,31 +422,43 @@
             this.label_Zad1.TabIndex = 11;
             this.label_Zad1.Text = "label_Zad1";
             // 
-            // label_Menu1Podtytuł
+            // label_Myślenie
             // 
-            this.label_Menu1Podtytuł.AutoSize = true;
-            this.label_Menu1Podtytuł.BackColor = System.Drawing.Color.Transparent;
-            this.label_Menu1Podtytuł.Font = new System.Drawing.Font("ElementarzDwa", 30F);
-            this.label_Menu1Podtytuł.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_Menu1Podtytuł.Location = new System.Drawing.Point(278, 101);
-            this.label_Menu1Podtytuł.Margin = new System.Windows.Forms.Padding(10);
-            this.label_Menu1Podtytuł.Name = "label_Menu1Podtytuł";
-            this.label_Menu1Podtytuł.Size = new System.Drawing.Size(320, 50);
-            this.label_Menu1Podtytuł.TabIndex = 6;
-            this.label_Menu1Podtytuł.Text = "label_Menu1Podtytuł";
+            this.label_Myślenie.AutoSize = true;
+            this.label_Myślenie.BackColor = System.Drawing.Color.Transparent;
+            this.label_Myślenie.Font = new System.Drawing.Font("ElementarzDwa", 30F);
+            this.label_Myślenie.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Myślenie.Location = new System.Drawing.Point(278, 101);
+            this.label_Myślenie.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Myślenie.Name = "label_Myślenie";
+            this.label_Myślenie.Size = new System.Drawing.Size(232, 50);
+            this.label_Myślenie.TabIndex = 6;
+            this.label_Myślenie.Text = "label_Myślenie";
             // 
-            // label_Menu1Tytuł
+            // label_OperacjeLogiczne2
             // 
-            this.label_Menu1Tytuł.AutoSize = true;
-            this.label_Menu1Tytuł.BackColor = System.Drawing.Color.Transparent;
-            this.label_Menu1Tytuł.Font = new System.Drawing.Font("ElementarzDwa", 40F, System.Drawing.FontStyle.Bold);
-            this.label_Menu1Tytuł.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_Menu1Tytuł.Location = new System.Drawing.Point(329, 13);
-            this.label_Menu1Tytuł.Margin = new System.Windows.Forms.Padding(10);
-            this.label_Menu1Tytuł.Name = "label_Menu1Tytuł";
-            this.label_Menu1Tytuł.Size = new System.Drawing.Size(392, 68);
-            this.label_Menu1Tytuł.TabIndex = 5;
-            this.label_Menu1Tytuł.Text = "label_Menu1Tytuł";
+            this.label_OperacjeLogiczne2.AutoSize = true;
+            this.label_OperacjeLogiczne2.BackColor = System.Drawing.Color.Transparent;
+            this.label_OperacjeLogiczne2.Font = new System.Drawing.Font("ElementarzDwa", 40F, System.Drawing.FontStyle.Bold);
+            this.label_OperacjeLogiczne2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_OperacjeLogiczne2.Location = new System.Drawing.Point(329, 13);
+            this.label_OperacjeLogiczne2.Margin = new System.Windows.Forms.Padding(10);
+            this.label_OperacjeLogiczne2.Name = "label_OperacjeLogiczne2";
+            this.label_OperacjeLogiczne2.Size = new System.Drawing.Size(492, 68);
+            this.label_OperacjeLogiczne2.TabIndex = 5;
+            this.label_OperacjeLogiczne2.Text = "label_OperacjeLogiczne2";
+            // 
+            // pictureBox_TosiaZadania
+            // 
+            this.pictureBox_TosiaZadania.Image = global::tosia.Properties.Resources.frog;
+            this.pictureBox_TosiaZadania.Location = new System.Drawing.Point(421, 347);
+            this.pictureBox_TosiaZadania.Margin = new System.Windows.Forms.Padding(25);
+            this.pictureBox_TosiaZadania.Name = "pictureBox_TosiaZadania";
+            this.pictureBox_TosiaZadania.Size = new System.Drawing.Size(182, 130);
+            this.pictureBox_TosiaZadania.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_TosiaZadania.TabIndex = 15;
+            this.pictureBox_TosiaZadania.TabStop = false;
+            this.pictureBox_TosiaZadania.Click += new System.EventHandler(this.pictureBox_TosiaZadania_Click);
             // 
             // pictureBox_Menu
             // 
@@ -553,6 +574,62 @@
             this.pictureBox_UE.TabIndex = 5;
             this.pictureBox_UE.TabStop = false;
             // 
+            // label_Przestrzenna
+            // 
+            this.label_Przestrzenna.AutoSize = true;
+            this.label_Przestrzenna.BackColor = System.Drawing.Color.Transparent;
+            this.label_Przestrzenna.Enabled = false;
+            this.label_Przestrzenna.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_Przestrzenna.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Przestrzenna.Location = new System.Drawing.Point(692, 235);
+            this.label_Przestrzenna.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Przestrzenna.Name = "label_Przestrzenna";
+            this.label_Przestrzenna.Size = new System.Drawing.Size(191, 34);
+            this.label_Przestrzenna.TabIndex = 13;
+            this.label_Przestrzenna.Text = "label_Przestrzenna";
+            // 
+            // label_Płaska
+            // 
+            this.label_Płaska.AutoSize = true;
+            this.label_Płaska.BackColor = System.Drawing.Color.Transparent;
+            this.label_Płaska.Enabled = false;
+            this.label_Płaska.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_Płaska.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Płaska.Location = new System.Drawing.Point(692, 181);
+            this.label_Płaska.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Płaska.Name = "label_Płaska";
+            this.label_Płaska.Size = new System.Drawing.Size(128, 34);
+            this.label_Płaska.TabIndex = 14;
+            this.label_Płaska.Text = "label_Płaska";
+            // 
+            // label_Długości
+            // 
+            this.label_Długości.AutoSize = true;
+            this.label_Długości.BackColor = System.Drawing.Color.Transparent;
+            this.label_Długości.Enabled = false;
+            this.label_Długości.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_Długości.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Długości.Location = new System.Drawing.Point(688, 361);
+            this.label_Długości.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Długości.Name = "label_Długości";
+            this.label_Długości.Size = new System.Drawing.Size(146, 34);
+            this.label_Długości.TabIndex = 15;
+            this.label_Długości.Text = "label_Długości";
+            // 
+            // label_Czasu
+            // 
+            this.label_Czasu.AutoSize = true;
+            this.label_Czasu.BackColor = System.Drawing.Color.Transparent;
+            this.label_Czasu.Enabled = false;
+            this.label_Czasu.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_Czasu.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Czasu.Location = new System.Drawing.Point(692, 415);
+            this.label_Czasu.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Czasu.Name = "label_Czasu";
+            this.label_Czasu.Size = new System.Drawing.Size(120, 34);
+            this.label_Czasu.TabIndex = 16;
+            this.label_Czasu.Text = "label_Czasu";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 34F);
@@ -612,17 +689,17 @@
         private System.Windows.Forms.TabControl tabControl;
         private System.Windows.Forms.TabPage tabPage_Menu;
         private System.Windows.Forms.PictureBox pictureBox_UE;
-        private System.Windows.Forms.Label label_MenuTytuł;
-        private System.Windows.Forms.Label label_Menu5;
-        private System.Windows.Forms.Label label_Menu4;
-        private System.Windows.Forms.Label label_Menu3;
-        private System.Windows.Forms.Label label_Menu2;
-        private System.Windows.Forms.Label label_Menu1;
+        private System.Windows.Forms.Label label_EdukacjaMatematyczna;
+        private System.Windows.Forms.Label label_Pomiar;
+        private System.Windows.Forms.Label label_Geometria;
+        private System.Windows.Forms.Label label_ArytmetykaLiczb;
+        private System.Windows.Forms.Label label_LiczbaNat;
+        private System.Windows.Forms.Label label_OperacjeLogiczne;
         private System.Windows.Forms.TabPage tabPage_Menu1;
         private System.Windows.Forms.Label label_tekst;
         private System.Windows.Forms.Label label_pytanie;
-        private System.Windows.Forms.Label label_Menu1Podtytuł;
-        private System.Windows.Forms.Label label_Menu1Tytuł;
+        private System.Windows.Forms.Label label_Myślenie;
+        private System.Windows.Forms.Label label_OperacjeLogiczne2;
         private System.Windows.Forms.PictureBox pictureBox_Menu;
         private System.Windows.Forms.Label label_Zad1;
         private System.Windows.Forms.PictureBox pictureBox_Z3;
@@ -639,6 +716,11 @@
         private System.Windows.Forms.PictureBox pictureBox_TosiaZadania;
         private System.Windows.Forms.PictureBox pictureBox_TosiaZ1;
         private System.Windows.Forms.PictureBox pictureBox_Next;
+        private System.Windows.Forms.Label label_Klasyfikacja;
+        private System.Windows.Forms.Label label_Długości;
+        private System.Windows.Forms.Label label_Płaska;
+        private System.Windows.Forms.Label label_Przestrzenna;
+        private System.Windows.Forms.Label label_Czasu;
     }
 }
 
