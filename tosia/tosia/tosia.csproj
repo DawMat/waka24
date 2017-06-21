@@ -137,5 +137,38 @@
   <ItemGroup>
     <None Include="bin\Debug\kumkum.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\balonik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\z1p1\cukierki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\z1p1\dzem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\z1p1\klozy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\z1p1\krowa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\z1p1\maka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\z1p1\mleko.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\z1p1\owca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\z1p1\truskawki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\z1p1\welna.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\z1p1\zeby.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

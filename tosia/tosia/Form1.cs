@@ -13,6 +13,8 @@ namespace tosia
 {
     public partial class Form1 : Form
     {
+        public int polecenie = 3;
+
         private void playSound(string path)
         {
             System.Media.SoundPlayer player = new System.Media.SoundPlayer();
@@ -54,7 +56,7 @@ namespace tosia
             label_Myślenie.Text = NazwyGUI.label_Myślenie;
             groupBox_Zad1.Text = NazwyGUI.groupBox_Zad1;
             groupBox_Zad2.Text = NazwyGUI.groupBox_Zad2;
-            label_Z1Tytuł.Text = NazwyGUI.label_Z1Tytuł;
+            label_Z1P1Tytuł.Text = NazwyGUI.label_Z1P1Tytuł;
         }
 
         private void pictureBox1_Exit (object sender, EventArgs e)
@@ -84,7 +86,8 @@ namespace tosia
 
         private void pictureBox_Z1_Click(object sender, EventArgs e)
         {
-            tabControl.SelectedTab = tabPage_Z1;
+            tabControl.SelectedTab = tabPage_Z1P1;
+            playSound("sounds/polecenia/polecenie1.wav");
         }
 
         private void pictureBox_Next_Click(object sender, EventArgs e)
@@ -117,7 +120,7 @@ namespace tosia
             playSound("sounds/kumkum.wav");
         }
 
-        private void pictureBox_TosiaZadania_Click(object sender, EventArgs e)
+        private void pictureBox_TosiaKlasyfikacja_Click(object sender, EventArgs e)
         {
             playSound("sounds/kumkum.wav");
 
@@ -128,16 +131,73 @@ namespace tosia
             //pictureBox_Z2P2.Image = Resources._2Color;
         }
 
-        private void pictureBox_TosiaZ1_Click(object sender, EventArgs e)
-        {
-            playSound("sounds/kumkum.wav");
-
-            label_Zadanie.Visible = true;
-        }
-
         private void label_Menu1a_Click(object sender, EventArgs e)
         {
-            tabControl.SelectedTab = tabPage_Menu1;
+            tabControl.SelectedTab = tabPage_MenuKlasyfikacja;
+        }
+
+        private void pictureBox_balonik_Click(object sender, EventArgs e)
+        {
+            pictureBox_krowa.Visible = true;
+            pictureBox_mleko.Visible = true;
+            pictureBox_owca.Visible = true;
+            pictureBox_welna.Visible = true;
+            pictureBox_truskawki.Visible = true;
+            pictureBox_dzem.Visible = true;
+            pictureBox_klos.Visible = true;
+            pictureBox_maka.Visible = true;
+            pictureBox_cukierki.Visible = true;
+            pictureBox_zeby.Visible = true;
+            pictureBox_dalej.Visible = true;
+
+            playSound("sounds/polecenia/polecenie2.wav");
+            pictureBox_balonik.Enabled = false;
+        }
+
+        private void pictureBox_dalej_Click(object sender, EventArgs e)
+        {
+            switch (polecenie)
+            {
+                case 3:
+                    playSound("sounds/polecenia/polecenie3.wav");
+                    polecenie++;
+                    break;
+
+                case 4:
+                    playSound("sounds/polecenia/polecenie4.wav");
+                    polecenie=5;
+                    break;
+
+                case 5:
+                    playSound("sounds/polecenia/polecenie5.wav");
+                    pictureBox_TakZ1P1.Visible = true;
+                    pictureBox_NieZ1P1.Visible = true;
+                    break;
+
+                case 7:
+                    playSound("sounds/polecenia/polecenie7.wav");
+                    polecenie++;
+                    break;
+                case 8:
+                    playSound("sounds/polecenia/polecenie8.wav");
+                    break;
+            }
+
+        }
+
+        private void pictureBox_TakZ1P1_Click(object sender, EventArgs e)
+        {
+            pictureBox_TakZ1P1.Visible = false;
+            pictureBox_NieZ1P1.Visible = false;
+            playSound("sounds/polecenia/polecenie6.wav");
+            polecenie = 7;
+        }
+
+        private void pictureBox_NieZ1P1_Click(object sender, EventArgs e)
+        {
+            pictureBox_TakZ1P1.Visible = false;
+            pictureBox_NieZ1P1.Visible = false;
+            playSound("sounds/polecenia/polecenie8.wav");
         }
     }
 }

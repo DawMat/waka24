@@ -169,4 +169,37 @@
   <data name="_4Color" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4Color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="balonik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\balonik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cukierki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\z1p1\cukierki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dzem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\z1p1\dzem.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klozy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\z1p1\klozy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="krowa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\z1p1\krowa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\z1p1\maka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mleko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\z1p1\mleko.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="owca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\z1p1\owca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="truskawki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\z1p1\truskawki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="welna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\z1p1\welna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zeby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\z1p1\zeby.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
