@@ -138,37 +138,40 @@
     <None Include="bin\Debug\kumkum.wav" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\balonik.png" />
+    <None Include="Resources\balonik.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\z1p1\cukierki.jpg" />
+    <None Include="Resources\z1p1\cukierki.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\z1p1\dzem.jpg" />
+    <None Include="Resources\z1p1\dzem.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\z1p1\klozy.jpg" />
+    <None Include="Resources\z1p1\klozy.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\z1p1\krowa.jpg" />
+    <None Include="Resources\z1p1\krowa.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\z1p1\maka.jpg" />
+    <None Include="Resources\z1p1\maka.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\z1p1\mleko.jpg" />
+    <None Include="Resources\z1p1\mleko.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\z1p1\owca.jpg" />
+    <None Include="Resources\z1p1\owca.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\z1p1\truskawki.jpg" />
+    <None Include="Resources\z1p1\ramka.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\z1p1\welna.jpg" />
+    <None Include="Resources\z1p1\truskawki.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\z1p1\zeby.jpeg" />
+    <None Include="Resources\z1p1\welna.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p1\zeby.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

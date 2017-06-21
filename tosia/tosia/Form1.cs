@@ -15,27 +15,11 @@ namespace tosia
     {
         public int polecenie = 3;
 
-        private void playSound(string path)
-        {
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer();
-
-            player.SoundLocation = path;
-
-            if (path == "stop")
-            {
-                player.Stop();
-            }
-            else
-            {
-                player.Load();
-                player.Play();
-            }
-        }
-
         public Form1()
         {
             InitializeComponent();
 
+            #region nazwy GUI
             label_Tytuł.Text = NazwyGUI.label_Tytuł;
             label_Waka.Text = NazwyGUI.label_Waka;
             label_tekst1.Text = NazwyGUI.label_tekst1;
@@ -57,6 +41,262 @@ namespace tosia
             groupBox_Zad1.Text = NazwyGUI.groupBox_Zad1;
             groupBox_Zad2.Text = NazwyGUI.groupBox_Zad2;
             label_Z1P1Tytuł.Text = NazwyGUI.label_Z1P1Tytuł;
+            #endregion nazwy GUI
+
+            INIT();
+        }
+
+        private Point firstPoint = new Point();
+        
+        public void INIT()
+        {
+            #region pictureBox_cukierki
+            pictureBox_cukierki.MouseDown += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    firstPoint = Control.MousePosition;
+                }
+            };
+
+            pictureBox_cukierki.MouseMove += (ss, ee) =>
+              {
+                  if (ee.Button==System.Windows.Forms.MouseButtons.Left)
+                  {
+                      Point temp = Control.MousePosition;
+                      Point res = new Point(firstPoint.X - temp.X, firstPoint.Y - temp.Y);
+
+                      pictureBox_cukierki.Location = new Point(pictureBox_cukierki.Location.X - res.X, pictureBox_cukierki.Location.Y - res.Y);
+
+                      firstPoint = temp;
+                  }
+              };
+            #endregion pictureBox_cukierki
+
+            #region pictureBox_zeby
+            pictureBox_zeby.MouseDown += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    firstPoint = Control.MousePosition;
+                }
+            };
+
+            pictureBox_zeby.MouseMove += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    Point temp = Control.MousePosition;
+                    Point res = new Point(firstPoint.X - temp.X, firstPoint.Y - temp.Y);
+
+                    pictureBox_zeby.Location = new Point(pictureBox_zeby.Location.X - res.X, pictureBox_zeby.Location.Y - res.Y);
+
+                    firstPoint = temp;
+                }
+            };
+            #endregion pictureBox_zeby
+
+            #region pictureBox_owca
+            pictureBox_owca.MouseDown += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    firstPoint = Control.MousePosition;
+                }
+            };
+
+            pictureBox_owca.MouseMove += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    Point temp = Control.MousePosition;
+                    Point res = new Point(firstPoint.X - temp.X, firstPoint.Y - temp.Y);
+
+                    pictureBox_owca.Location = new Point(pictureBox_owca.Location.X - res.X, pictureBox_owca.Location.Y - res.Y);
+
+                    firstPoint = temp;
+                }
+            };
+            #endregion pictureBox_owca
+
+            #region pictureBox_welna
+            pictureBox_welna.MouseDown += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    firstPoint = Control.MousePosition;
+                }
+            };
+
+            pictureBox_welna.MouseMove += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    Point temp = Control.MousePosition;
+                    Point res = new Point(firstPoint.X - temp.X, firstPoint.Y - temp.Y);
+
+                    pictureBox_welna.Location = new Point(pictureBox_welna.Location.X - res.X, pictureBox_welna.Location.Y - res.Y);
+
+                    firstPoint = temp;
+                }
+            };
+            #endregion pictureBox_welna
+
+            #region pictureBox_truskawki
+            pictureBox_truskawki.MouseDown += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    firstPoint = Control.MousePosition;
+                }
+            };
+
+            pictureBox_truskawki.MouseMove += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    Point temp = Control.MousePosition;
+                    Point res = new Point(firstPoint.X - temp.X, firstPoint.Y - temp.Y);
+
+                    pictureBox_truskawki.Location = new Point(pictureBox_truskawki.Location.X - res.X, pictureBox_truskawki.Location.Y - res.Y);
+
+                    firstPoint = temp;
+                }
+            };
+            #endregion pictureBox_truskawki
+
+            #region pictureBox_dzem
+            pictureBox_dzem.MouseDown += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    firstPoint = Control.MousePosition;
+                }
+            };
+
+            pictureBox_dzem.MouseMove += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    Point temp = Control.MousePosition;
+                    Point res = new Point(firstPoint.X - temp.X, firstPoint.Y - temp.Y);
+
+                    pictureBox_dzem.Location = new Point(pictureBox_dzem.Location.X - res.X, pictureBox_dzem.Location.Y - res.Y);
+
+                    firstPoint = temp;
+                }
+            };
+            #endregion pictureBox_dzem
+
+            #region pictureBox_krowa
+            pictureBox_krowa.MouseDown += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    firstPoint = Control.MousePosition;
+                }
+            };
+
+            pictureBox_krowa.MouseMove += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    Point temp = Control.MousePosition;
+                    Point res = new Point(firstPoint.X - temp.X, firstPoint.Y - temp.Y);
+
+                    pictureBox_krowa.Location = new Point(pictureBox_krowa.Location.X - res.X, pictureBox_krowa.Location.Y - res.Y);
+
+                    firstPoint = temp;
+                }
+            };
+            #endregion pictureBox_krowa
+
+            #region pictureBox_mleko
+            pictureBox_mleko.MouseDown += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    firstPoint = Control.MousePosition;
+                }
+            };
+
+            pictureBox_mleko.MouseMove += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    Point temp = Control.MousePosition;
+                    Point res = new Point(firstPoint.X - temp.X, firstPoint.Y - temp.Y);
+
+                    pictureBox_mleko.Location = new Point(pictureBox_mleko.Location.X - res.X, pictureBox_mleko.Location.Y - res.Y);
+
+                    firstPoint = temp;
+                }
+            };
+            #endregion pictureBox_cukierki
+
+            #region pictureBox_klos
+            pictureBox_klos.MouseDown += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    firstPoint = Control.MousePosition;
+                }
+            };
+
+            pictureBox_klos.MouseMove += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    Point temp = Control.MousePosition;
+                    Point res = new Point(firstPoint.X - temp.X, firstPoint.Y - temp.Y);
+
+                    pictureBox_klos.Location = new Point(pictureBox_klos.Location.X - res.X, pictureBox_klos.Location.Y - res.Y);
+
+                    firstPoint = temp;
+                }
+            };
+            #endregion pictureBox_klos
+
+            #region pictureBox_maka
+            pictureBox_maka.MouseDown += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    firstPoint = Control.MousePosition;
+                }
+            };
+
+            pictureBox_maka.MouseMove += (ss, ee) =>
+            {
+                if (ee.Button == System.Windows.Forms.MouseButtons.Left)
+                {
+                    Point temp = Control.MousePosition;
+                    Point res = new Point(firstPoint.X - temp.X, firstPoint.Y - temp.Y);
+
+                    pictureBox_maka.Location = new Point(pictureBox_maka.Location.X - res.X, pictureBox_maka.Location.Y - res.Y);
+
+                    firstPoint = temp;
+                }
+            };
+            #endregion pictureBox_mleko
+
+        }
+
+        private void playSound(string path)
+        {
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+
+            player.SoundLocation = path;
+
+            if (path == "stop")
+            {
+                player.Stop();
+            }
+            else
+            {
+                player.Load();
+                player.Play();
+            }
         }
 
         private void pictureBox1_Exit (object sender, EventArgs e)

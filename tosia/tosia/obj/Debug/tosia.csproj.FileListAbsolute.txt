@@ -16,7 +16,6 @@ D:\DawidMatuszynski\OneDrive\Dokumenty\Projects\kopie\tosia\tosia\obj\Debug\tosi
 D:\DawidMatuszynski\OneDrive\Dokumenty\Projects\kopie\tosia\tosia\obj\Debug\tosia.csproj.GenerateResource.Cache
 D:\DawidMatuszynski\OneDrive\Dokumenty\Projects\kopie\tosia\tosia\obj\Debug\tosia.exe
 D:\DawidMatuszynski\OneDrive\Dokumenty\Projects\kopie\tosia\tosia\obj\Debug\tosia.pdb
-D:\DawidMatuszynski\Git\waka24\tosia\tosia\obj\Debug\tosia.csprojResolveAssemblyReference.cache
 D:\DawidMatuszynski\Git\waka24\tosia\tosia\obj\Debug\tosia.Form1.resources
 D:\DawidMatuszynski\Git\waka24\tosia\tosia\obj\Debug\tosia.Properties.Resources.resources
 D:\DawidMatuszynski\Git\waka24\tosia\tosia\obj\Debug\tosia.csproj.GenerateResource.Cache
@@ -25,3 +24,4 @@ D:\DawidMatuszynski\Git\waka24\tosia\tosia\obj\Debug\tosia.pdb
 D:\DawidMatuszynski\Git\waka24\tosia\tosia\bin\Debug\tosia.exe.config
 D:\DawidMatuszynski\Git\waka24\tosia\tosia\bin\Debug\tosia.exe
 D:\DawidMatuszynski\Git\waka24\tosia\tosia\bin\Debug\tosia.pdb
+D:\DawidMatuszynski\Git\waka24\tosia\tosia\obj\Debug\tosia.csprojResolveAssemblyReference.cache
