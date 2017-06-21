@@ -52,9 +52,8 @@ namespace tosia
             label_Czasu.Text = NazwyGUI.label_Czasu;
             label_OperacjeLogiczne2.Text = NazwyGUI.label_OperacjeLogiczne;
             label_Myślenie.Text = NazwyGUI.label_Myślenie;
-            label_Zad1.Text = NazwyGUI.label_Zad1;
-            label_Zad2.Text = NazwyGUI.label_Zad2;
-            label_Zad3.Text = NazwyGUI.label_Zad3;
+            groupBox_Zad1.Text = NazwyGUI.groupBox_Zad1;
+            groupBox_Zad2.Text = NazwyGUI.groupBox_Zad2;
             label_Z1Tytuł.Text = NazwyGUI.label_Z1Tytuł;
         }
 
@@ -122,8 +121,11 @@ namespace tosia
         {
             playSound("sounds/kumkum.wav");
 
-            pictureBox_Z1.Enabled = true;
-            pictureBox_Z1.Image= Resources._1Color;
+            pictureBox_Z1P1.Enabled = true;
+            pictureBox_Z1P1.Image = Resources._1Color;
+            //pictureBox_Z1P2.Image = Resources._2Color;
+            //pictureBox_Z2P1.Image = Resources._1Color;
+            //pictureBox_Z2P2.Image = Resources._2Color;
         }
 
         private void pictureBox_TosiaZ1_Click(object sender, EventArgs e)

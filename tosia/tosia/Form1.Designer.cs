@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.tabPage_Song = new System.Windows.Forms.TabPage();
+            this.label_tekst3 = new System.Windows.Forms.Label();
+            this.label_tekst2 = new System.Windows.Forms.Label();
             this.pictureBox_TosiaSong = new System.Windows.Forms.PictureBox();
             this.pictureBox_Next = new System.Windows.Forms.PictureBox();
             this.label_tekst1 = new System.Windows.Forms.Label();
@@ -54,24 +56,22 @@
             this.label_OperacjeLogiczne = new System.Windows.Forms.Label();
             this.label_EdukacjaMatematyczna = new System.Windows.Forms.Label();
             this.tabPage_Menu1 = new System.Windows.Forms.TabPage();
-            this.label_Zad3 = new System.Windows.Forms.Label();
-            this.label_Zad2 = new System.Windows.Forms.Label();
-            this.label_Zad1 = new System.Windows.Forms.Label();
             this.label_Myślenie = new System.Windows.Forms.Label();
             this.label_OperacjeLogiczne2 = new System.Windows.Forms.Label();
             this.pictureBox_TosiaZadania = new System.Windows.Forms.PictureBox();
             this.pictureBox_Menu = new System.Windows.Forms.PictureBox();
-            this.pictureBox_Z3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_Z2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_Z1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Z1P2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Z1P1 = new System.Windows.Forms.PictureBox();
             this.tabPage_Z1 = new System.Windows.Forms.TabPage();
             this.pictureBox_TosiaZ1 = new System.Windows.Forms.PictureBox();
             this.label_Zadanie = new System.Windows.Forms.Label();
             this.label_Z1Tytuł = new System.Windows.Forms.Label();
             this.pictureBox_Exit = new System.Windows.Forms.PictureBox();
             this.pictureBox_UE = new System.Windows.Forms.PictureBox();
-            this.label_tekst2 = new System.Windows.Forms.Label();
-            this.label_tekst3 = new System.Windows.Forms.Label();
+            this.groupBox_Zad1 = new System.Windows.Forms.GroupBox();
+            this.groupBox_Zad2 = new System.Windows.Forms.GroupBox();
+            this.pictureBox_Z2P1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Z2P2 = new System.Windows.Forms.PictureBox();
             this.tabPage_Song.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaSong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Next)).BeginInit();
@@ -85,13 +85,16 @@
             this.tabPage_Menu1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaZadania)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Menu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z1P2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z1P1)).BeginInit();
             this.tabPage_Z1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaZ1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_UE)).BeginInit();
+            this.groupBox_Zad1.SuspendLayout();
+            this.groupBox_Zad2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z2P1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z2P2)).BeginInit();
             this.SuspendLayout();
             // 
             // tabPage_Song
@@ -109,6 +112,28 @@
             this.tabPage_Song.TabIndex = 1;
             this.tabPage_Song.Text = "tabPage_Song";
             this.tabPage_Song.UseVisualStyleBackColor = true;
+            // 
+            // label_tekst3
+            // 
+            this.label_tekst3.AutoSize = true;
+            this.label_tekst3.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_tekst3.Location = new System.Drawing.Point(690, 10);
+            this.label_tekst3.Name = "label_tekst3";
+            this.label_tekst3.Size = new System.Drawing.Size(90, 34);
+            this.label_tekst3.TabIndex = 10;
+            this.label_tekst3.Text = "//tekst3";
+            this.label_tekst3.Visible = false;
+            // 
+            // label_tekst2
+            // 
+            this.label_tekst2.AutoSize = true;
+            this.label_tekst2.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_tekst2.Location = new System.Drawing.Point(360, 10);
+            this.label_tekst2.Name = "label_tekst2";
+            this.label_tekst2.Size = new System.Drawing.Size(90, 34);
+            this.label_tekst2.TabIndex = 9;
+            this.label_tekst2.Text = "//tekst2";
+            this.label_tekst2.Visible = false;
             // 
             // pictureBox_TosiaSong
             // 
@@ -434,16 +459,12 @@
             // 
             // tabPage_Menu1
             // 
-            this.tabPage_Menu1.Controls.Add(this.label_Zad3);
-            this.tabPage_Menu1.Controls.Add(this.label_Zad2);
-            this.tabPage_Menu1.Controls.Add(this.label_Zad1);
+            this.tabPage_Menu1.Controls.Add(this.groupBox_Zad2);
+            this.tabPage_Menu1.Controls.Add(this.groupBox_Zad1);
             this.tabPage_Menu1.Controls.Add(this.label_Myślenie);
             this.tabPage_Menu1.Controls.Add(this.label_OperacjeLogiczne2);
             this.tabPage_Menu1.Controls.Add(this.pictureBox_TosiaZadania);
             this.tabPage_Menu1.Controls.Add(this.pictureBox_Menu);
-            this.tabPage_Menu1.Controls.Add(this.pictureBox_Z3);
-            this.tabPage_Menu1.Controls.Add(this.pictureBox_Z2);
-            this.tabPage_Menu1.Controls.Add(this.pictureBox_Z1);
             this.tabPage_Menu1.Location = new System.Drawing.Point(4, 16);
             this.tabPage_Menu1.Name = "tabPage_Menu1";
             this.tabPage_Menu1.Padding = new System.Windows.Forms.Padding(3);
@@ -451,36 +472,6 @@
             this.tabPage_Menu1.TabIndex = 3;
             this.tabPage_Menu1.Text = "tabPage_Menu1";
             this.tabPage_Menu1.UseVisualStyleBackColor = true;
-            // 
-            // label_Zad3
-            // 
-            this.label_Zad3.AutoSize = true;
-            this.label_Zad3.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_Zad3.Location = new System.Drawing.Point(640, 304);
-            this.label_Zad3.Name = "label_Zad3";
-            this.label_Zad3.Size = new System.Drawing.Size(116, 34);
-            this.label_Zad3.TabIndex = 14;
-            this.label_Zad3.Text = "label_Zad3";
-            // 
-            // label_Zad2
-            // 
-            this.label_Zad2.AutoSize = true;
-            this.label_Zad2.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_Zad2.Location = new System.Drawing.Point(456, 304);
-            this.label_Zad2.Name = "label_Zad2";
-            this.label_Zad2.Size = new System.Drawing.Size(116, 34);
-            this.label_Zad2.TabIndex = 13;
-            this.label_Zad2.Text = "label_Zad2";
-            // 
-            // label_Zad1
-            // 
-            this.label_Zad1.AutoSize = true;
-            this.label_Zad1.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_Zad1.Location = new System.Drawing.Point(281, 304);
-            this.label_Zad1.Name = "label_Zad1";
-            this.label_Zad1.Size = new System.Drawing.Size(112, 34);
-            this.label_Zad1.TabIndex = 11;
-            this.label_Zad1.Text = "label_Zad1";
             // 
             // label_Myślenie
             // 
@@ -531,37 +522,29 @@
             this.pictureBox_Menu.TabStop = false;
             this.pictureBox_Menu.Click += new System.EventHandler(this.pictureBox_Menu_Click);
             // 
-            // pictureBox_Z3
+            // pictureBox_Z1P2
             // 
-            this.pictureBox_Z3.Image = global::tosia.Properties.Resources._3;
-            this.pictureBox_Z3.Location = new System.Drawing.Point(646, 201);
-            this.pictureBox_Z3.Name = "pictureBox_Z3";
-            this.pictureBox_Z3.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox_Z3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Z3.TabIndex = 9;
-            this.pictureBox_Z3.TabStop = false;
+            this.pictureBox_Z1P2.Image = global::tosia.Properties.Resources._2;
+            this.pictureBox_Z1P2.Location = new System.Drawing.Point(163, 49);
+            this.pictureBox_Z1P2.Margin = new System.Windows.Forms.Padding(20);
+            this.pictureBox_Z1P2.Name = "pictureBox_Z1P2";
+            this.pictureBox_Z1P2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox_Z1P2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Z1P2.TabIndex = 8;
+            this.pictureBox_Z1P2.TabStop = false;
             // 
-            // pictureBox_Z2
+            // pictureBox_Z1P1
             // 
-            this.pictureBox_Z2.Image = global::tosia.Properties.Resources._2;
-            this.pictureBox_Z2.Location = new System.Drawing.Point(462, 201);
-            this.pictureBox_Z2.Name = "pictureBox_Z2";
-            this.pictureBox_Z2.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox_Z2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Z2.TabIndex = 8;
-            this.pictureBox_Z2.TabStop = false;
-            // 
-            // pictureBox_Z1
-            // 
-            this.pictureBox_Z1.Enabled = false;
-            this.pictureBox_Z1.Image = global::tosia.Properties.Resources._1;
-            this.pictureBox_Z1.Location = new System.Drawing.Point(287, 201);
-            this.pictureBox_Z1.Name = "pictureBox_Z1";
-            this.pictureBox_Z1.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox_Z1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Z1.TabIndex = 7;
-            this.pictureBox_Z1.TabStop = false;
-            this.pictureBox_Z1.Click += new System.EventHandler(this.pictureBox_Z1_Click);
+            this.pictureBox_Z1P1.Enabled = false;
+            this.pictureBox_Z1P1.Image = global::tosia.Properties.Resources._1;
+            this.pictureBox_Z1P1.Location = new System.Drawing.Point(23, 49);
+            this.pictureBox_Z1P1.Margin = new System.Windows.Forms.Padding(20);
+            this.pictureBox_Z1P1.Name = "pictureBox_Z1P1";
+            this.pictureBox_Z1P1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox_Z1P1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Z1P1.TabIndex = 7;
+            this.pictureBox_Z1P1.TabStop = false;
+            this.pictureBox_Z1P1.Click += new System.EventHandler(this.pictureBox_Z1_Click);
             // 
             // tabPage_Z1
             // 
@@ -634,27 +617,54 @@
             this.pictureBox_UE.TabIndex = 5;
             this.pictureBox_UE.TabStop = false;
             // 
-            // label_tekst2
+            // groupBox_Zad1
             // 
-            this.label_tekst2.AutoSize = true;
-            this.label_tekst2.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_tekst2.Location = new System.Drawing.Point(360, 10);
-            this.label_tekst2.Name = "label_tekst2";
-            this.label_tekst2.Size = new System.Drawing.Size(90, 34);
-            this.label_tekst2.TabIndex = 9;
-            this.label_tekst2.Text = "//tekst2";
-            this.label_tekst2.Visible = false;
+            this.groupBox_Zad1.Controls.Add(this.pictureBox_Z1P1);
+            this.groupBox_Zad1.Controls.Add(this.pictureBox_Z1P2);
+            this.groupBox_Zad1.Font = new System.Drawing.Font("ElementarzDwa", 15F);
+            this.groupBox_Zad1.Location = new System.Drawing.Point(149, 164);
+            this.groupBox_Zad1.Margin = new System.Windows.Forms.Padding(150, 3, 3, 3);
+            this.groupBox_Zad1.Name = "groupBox_Zad1";
+            this.groupBox_Zad1.Size = new System.Drawing.Size(280, 172);
+            this.groupBox_Zad1.TabIndex = 16;
+            this.groupBox_Zad1.TabStop = false;
+            this.groupBox_Zad1.Text = "groupBox_Zad1";
             // 
-            // label_tekst3
+            // groupBox_Zad2
             // 
-            this.label_tekst3.AutoSize = true;
-            this.label_tekst3.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_tekst3.Location = new System.Drawing.Point(690, 10);
-            this.label_tekst3.Name = "label_tekst3";
-            this.label_tekst3.Size = new System.Drawing.Size(90, 34);
-            this.label_tekst3.TabIndex = 10;
-            this.label_tekst3.Text = "//tekst3";
-            this.label_tekst3.Visible = false;
+            this.groupBox_Zad2.Controls.Add(this.pictureBox_Z2P2);
+            this.groupBox_Zad2.Controls.Add(this.pictureBox_Z2P1);
+            this.groupBox_Zad2.Font = new System.Drawing.Font("ElementarzDwa", 15F);
+            this.groupBox_Zad2.Location = new System.Drawing.Point(598, 164);
+            this.groupBox_Zad2.Margin = new System.Windows.Forms.Padding(3, 3, 150, 3);
+            this.groupBox_Zad2.Name = "groupBox_Zad2";
+            this.groupBox_Zad2.Size = new System.Drawing.Size(280, 172);
+            this.groupBox_Zad2.TabIndex = 17;
+            this.groupBox_Zad2.TabStop = false;
+            this.groupBox_Zad2.Text = "groupBox_Zad2";
+            // 
+            // pictureBox_Z2P1
+            // 
+            this.pictureBox_Z2P1.Enabled = false;
+            this.pictureBox_Z2P1.Image = global::tosia.Properties.Resources._1;
+            this.pictureBox_Z2P1.Location = new System.Drawing.Point(23, 51);
+            this.pictureBox_Z2P1.Margin = new System.Windows.Forms.Padding(20);
+            this.pictureBox_Z2P1.Name = "pictureBox_Z2P1";
+            this.pictureBox_Z2P1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox_Z2P1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Z2P1.TabIndex = 18;
+            this.pictureBox_Z2P1.TabStop = false;
+            // 
+            // pictureBox_Z2P2
+            // 
+            this.pictureBox_Z2P2.Image = global::tosia.Properties.Resources._2;
+            this.pictureBox_Z2P2.Location = new System.Drawing.Point(163, 51);
+            this.pictureBox_Z2P2.Margin = new System.Windows.Forms.Padding(20);
+            this.pictureBox_Z2P2.Name = "pictureBox_Z2P2";
+            this.pictureBox_Z2P2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox_Z2P2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Z2P2.TabIndex = 9;
+            this.pictureBox_Z2P2.TabStop = false;
             // 
             // Form1
             // 
@@ -690,14 +700,17 @@
             this.tabPage_Menu1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaZadania)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Menu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z1P2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z1P1)).EndInit();
             this.tabPage_Z1.ResumeLayout(false);
             this.tabPage_Z1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaZ1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_UE)).EndInit();
+            this.groupBox_Zad1.ResumeLayout(false);
+            this.groupBox_Zad2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z2P1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z2P2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -727,14 +740,10 @@
         private System.Windows.Forms.Label label_Myślenie;
         private System.Windows.Forms.Label label_OperacjeLogiczne2;
         private System.Windows.Forms.PictureBox pictureBox_Menu;
-        private System.Windows.Forms.Label label_Zad1;
-        private System.Windows.Forms.PictureBox pictureBox_Z3;
-        private System.Windows.Forms.PictureBox pictureBox_Z2;
-        private System.Windows.Forms.PictureBox pictureBox_Z1;
+        private System.Windows.Forms.PictureBox pictureBox_Z1P2;
+        private System.Windows.Forms.PictureBox pictureBox_Z1P1;
         private System.Windows.Forms.TabPage tabPage_Z1;
         private System.Windows.Forms.Label label_Z1Tytuł;
-        private System.Windows.Forms.Label label_Zad3;
-        private System.Windows.Forms.Label label_Zad2;
         private System.Windows.Forms.PictureBox pictureBox_TosiaHome;
         private System.Windows.Forms.Label label_Zadanie;
         private System.Windows.Forms.PictureBox pictureBox_TosiaSong;
@@ -749,6 +758,10 @@
         private System.Windows.Forms.Label label_Czasu;
         private System.Windows.Forms.Label label_tekst3;
         private System.Windows.Forms.Label label_tekst2;
+        private System.Windows.Forms.GroupBox groupBox_Zad1;
+        private System.Windows.Forms.GroupBox groupBox_Zad2;
+        private System.Windows.Forms.PictureBox pictureBox_Z2P2;
+        private System.Windows.Forms.PictureBox pictureBox_Z2P1;
     }
 }
 

@@ -26,9 +26,8 @@ namespace tosia
         public static string label_Czasu = "B. Czasu";
         public static string label_Menu1Tytuł = "Operacje logiczne";
         public static string label_Myślenie = "Myślenie przyczynowo-skutkowe";
-        public static string label_Zad1 = "Co do czego?";
-        public static string label_Zad2 = "//zad2";     //poprawić
-        public static string label_Zad3 = "//zad3";     //poprawić
+        public static string groupBox_Zad1 = "Zadanie 1. Co do czego?";
+        public static string groupBox_Zad2 = "Zadanie 2. "; //dodać nazwe zadania
         public static string label_Z1Tytuł = "Zadanie 1. Co z czego?";
     }
 }
