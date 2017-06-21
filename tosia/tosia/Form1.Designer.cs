@@ -31,7 +31,7 @@
             this.tabPage_Song = new System.Windows.Forms.TabPage();
             this.pictureBox_TosiaSong = new System.Windows.Forms.PictureBox();
             this.pictureBox_Next = new System.Windows.Forms.PictureBox();
-            this.label_tekst = new System.Windows.Forms.Label();
+            this.label_tekst1 = new System.Windows.Forms.Label();
             this.tabPage_Start = new System.Windows.Forms.TabPage();
             this.pictureBox_TosiaHome = new System.Windows.Forms.PictureBox();
             this.label_pytanie = new System.Windows.Forms.Label();
@@ -41,6 +41,10 @@
             this.label_Waka = new System.Windows.Forms.Label();
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPage_Menu = new System.Windows.Forms.TabPage();
+            this.label_Czasu = new System.Windows.Forms.Label();
+            this.label_Długości = new System.Windows.Forms.Label();
+            this.label_Płaska = new System.Windows.Forms.Label();
+            this.label_Przestrzenna = new System.Windows.Forms.Label();
             this.label_Klasyfikacja = new System.Windows.Forms.Label();
             this.pictureBox_TosiaMenu = new System.Windows.Forms.PictureBox();
             this.label_Pomiar = new System.Windows.Forms.Label();
@@ -66,10 +70,8 @@
             this.label_Z1Tytuł = new System.Windows.Forms.Label();
             this.pictureBox_Exit = new System.Windows.Forms.PictureBox();
             this.pictureBox_UE = new System.Windows.Forms.PictureBox();
-            this.label_Przestrzenna = new System.Windows.Forms.Label();
-            this.label_Płaska = new System.Windows.Forms.Label();
-            this.label_Długości = new System.Windows.Forms.Label();
-            this.label_Czasu = new System.Windows.Forms.Label();
+            this.label_tekst2 = new System.Windows.Forms.Label();
+            this.label_tekst3 = new System.Windows.Forms.Label();
             this.tabPage_Song.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaSong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Next)).BeginInit();
@@ -95,9 +97,11 @@
             // tabPage_Song
             // 
             this.tabPage_Song.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage_Song.Controls.Add(this.label_tekst3);
+            this.tabPage_Song.Controls.Add(this.label_tekst2);
             this.tabPage_Song.Controls.Add(this.pictureBox_TosiaSong);
             this.tabPage_Song.Controls.Add(this.pictureBox_Next);
-            this.tabPage_Song.Controls.Add(this.label_tekst);
+            this.tabPage_Song.Controls.Add(this.label_tekst1);
             this.tabPage_Song.Location = new System.Drawing.Point(4, 16);
             this.tabPage_Song.Name = "tabPage_Song";
             this.tabPage_Song.Padding = new System.Windows.Forms.Padding(3);
@@ -109,10 +113,10 @@
             // pictureBox_TosiaSong
             // 
             this.pictureBox_TosiaSong.Image = global::tosia.Properties.Resources.frog;
-            this.pictureBox_TosiaSong.Location = new System.Drawing.Point(34, 324);
+            this.pictureBox_TosiaSong.Location = new System.Drawing.Point(18, 347);
             this.pictureBox_TosiaSong.Margin = new System.Windows.Forms.Padding(25);
             this.pictureBox_TosiaSong.Name = "pictureBox_TosiaSong";
-            this.pictureBox_TosiaSong.Size = new System.Drawing.Size(210, 150);
+            this.pictureBox_TosiaSong.Size = new System.Drawing.Size(182, 130);
             this.pictureBox_TosiaSong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_TosiaSong.TabIndex = 8;
             this.pictureBox_TosiaSong.TabStop = false;
@@ -131,16 +135,16 @@
             this.pictureBox_Next.Visible = false;
             this.pictureBox_Next.Click += new System.EventHandler(this.pictureBox_Next_Click);
             // 
-            // label_tekst
+            // label_tekst1
             // 
-            this.label_tekst.AutoSize = true;
-            this.label_tekst.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_tekst.Location = new System.Drawing.Point(400, 50);
-            this.label_tekst.Name = "label_tekst";
-            this.label_tekst.Size = new System.Drawing.Size(78, 34);
-            this.label_tekst.TabIndex = 6;
-            this.label_tekst.Text = "//tekst";
-            this.label_tekst.Visible = false;
+            this.label_tekst1.AutoSize = true;
+            this.label_tekst1.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_tekst1.Location = new System.Drawing.Point(22, 10);
+            this.label_tekst1.Name = "label_tekst1";
+            this.label_tekst1.Size = new System.Drawing.Size(86, 34);
+            this.label_tekst1.TabIndex = 6;
+            this.label_tekst1.Text = "//tekst1";
+            this.label_tekst1.Visible = false;
             // 
             // tabPage_Start
             // 
@@ -264,6 +268,62 @@
             this.tabPage_Menu.TabIndex = 2;
             this.tabPage_Menu.Text = "tabPage_Menu";
             this.tabPage_Menu.UseVisualStyleBackColor = true;
+            // 
+            // label_Czasu
+            // 
+            this.label_Czasu.AutoSize = true;
+            this.label_Czasu.BackColor = System.Drawing.Color.Transparent;
+            this.label_Czasu.Enabled = false;
+            this.label_Czasu.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_Czasu.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Czasu.Location = new System.Drawing.Point(692, 415);
+            this.label_Czasu.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Czasu.Name = "label_Czasu";
+            this.label_Czasu.Size = new System.Drawing.Size(120, 34);
+            this.label_Czasu.TabIndex = 16;
+            this.label_Czasu.Text = "label_Czasu";
+            // 
+            // label_Długości
+            // 
+            this.label_Długości.AutoSize = true;
+            this.label_Długości.BackColor = System.Drawing.Color.Transparent;
+            this.label_Długości.Enabled = false;
+            this.label_Długości.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_Długości.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Długości.Location = new System.Drawing.Point(688, 361);
+            this.label_Długości.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Długości.Name = "label_Długości";
+            this.label_Długości.Size = new System.Drawing.Size(146, 34);
+            this.label_Długości.TabIndex = 15;
+            this.label_Długości.Text = "label_Długości";
+            // 
+            // label_Płaska
+            // 
+            this.label_Płaska.AutoSize = true;
+            this.label_Płaska.BackColor = System.Drawing.Color.Transparent;
+            this.label_Płaska.Enabled = false;
+            this.label_Płaska.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_Płaska.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Płaska.Location = new System.Drawing.Point(692, 181);
+            this.label_Płaska.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Płaska.Name = "label_Płaska";
+            this.label_Płaska.Size = new System.Drawing.Size(128, 34);
+            this.label_Płaska.TabIndex = 14;
+            this.label_Płaska.Text = "label_Płaska";
+            // 
+            // label_Przestrzenna
+            // 
+            this.label_Przestrzenna.AutoSize = true;
+            this.label_Przestrzenna.BackColor = System.Drawing.Color.Transparent;
+            this.label_Przestrzenna.Enabled = false;
+            this.label_Przestrzenna.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_Przestrzenna.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Przestrzenna.Location = new System.Drawing.Point(692, 235);
+            this.label_Przestrzenna.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Przestrzenna.Name = "label_Przestrzenna";
+            this.label_Przestrzenna.Size = new System.Drawing.Size(191, 34);
+            this.label_Przestrzenna.TabIndex = 13;
+            this.label_Przestrzenna.Text = "label_Przestrzenna";
             // 
             // label_Klasyfikacja
             // 
@@ -574,61 +634,27 @@
             this.pictureBox_UE.TabIndex = 5;
             this.pictureBox_UE.TabStop = false;
             // 
-            // label_Przestrzenna
+            // label_tekst2
             // 
-            this.label_Przestrzenna.AutoSize = true;
-            this.label_Przestrzenna.BackColor = System.Drawing.Color.Transparent;
-            this.label_Przestrzenna.Enabled = false;
-            this.label_Przestrzenna.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_Przestrzenna.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_Przestrzenna.Location = new System.Drawing.Point(692, 235);
-            this.label_Przestrzenna.Margin = new System.Windows.Forms.Padding(10);
-            this.label_Przestrzenna.Name = "label_Przestrzenna";
-            this.label_Przestrzenna.Size = new System.Drawing.Size(191, 34);
-            this.label_Przestrzenna.TabIndex = 13;
-            this.label_Przestrzenna.Text = "label_Przestrzenna";
+            this.label_tekst2.AutoSize = true;
+            this.label_tekst2.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_tekst2.Location = new System.Drawing.Point(360, 10);
+            this.label_tekst2.Name = "label_tekst2";
+            this.label_tekst2.Size = new System.Drawing.Size(90, 34);
+            this.label_tekst2.TabIndex = 9;
+            this.label_tekst2.Text = "//tekst2";
+            this.label_tekst2.Visible = false;
             // 
-            // label_Płaska
+            // label_tekst3
             // 
-            this.label_Płaska.AutoSize = true;
-            this.label_Płaska.BackColor = System.Drawing.Color.Transparent;
-            this.label_Płaska.Enabled = false;
-            this.label_Płaska.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_Płaska.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_Płaska.Location = new System.Drawing.Point(692, 181);
-            this.label_Płaska.Margin = new System.Windows.Forms.Padding(10);
-            this.label_Płaska.Name = "label_Płaska";
-            this.label_Płaska.Size = new System.Drawing.Size(128, 34);
-            this.label_Płaska.TabIndex = 14;
-            this.label_Płaska.Text = "label_Płaska";
-            // 
-            // label_Długości
-            // 
-            this.label_Długości.AutoSize = true;
-            this.label_Długości.BackColor = System.Drawing.Color.Transparent;
-            this.label_Długości.Enabled = false;
-            this.label_Długości.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_Długości.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_Długości.Location = new System.Drawing.Point(688, 361);
-            this.label_Długości.Margin = new System.Windows.Forms.Padding(10);
-            this.label_Długości.Name = "label_Długości";
-            this.label_Długości.Size = new System.Drawing.Size(146, 34);
-            this.label_Długości.TabIndex = 15;
-            this.label_Długości.Text = "label_Długości";
-            // 
-            // label_Czasu
-            // 
-            this.label_Czasu.AutoSize = true;
-            this.label_Czasu.BackColor = System.Drawing.Color.Transparent;
-            this.label_Czasu.Enabled = false;
-            this.label_Czasu.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_Czasu.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_Czasu.Location = new System.Drawing.Point(692, 415);
-            this.label_Czasu.Margin = new System.Windows.Forms.Padding(10);
-            this.label_Czasu.Name = "label_Czasu";
-            this.label_Czasu.Size = new System.Drawing.Size(120, 34);
-            this.label_Czasu.TabIndex = 16;
-            this.label_Czasu.Text = "label_Czasu";
+            this.label_tekst3.AutoSize = true;
+            this.label_tekst3.Font = new System.Drawing.Font("ElementarzDwa", 20F);
+            this.label_tekst3.Location = new System.Drawing.Point(690, 10);
+            this.label_tekst3.Name = "label_tekst3";
+            this.label_tekst3.Size = new System.Drawing.Size(90, 34);
+            this.label_tekst3.TabIndex = 10;
+            this.label_tekst3.Text = "//tekst3";
+            this.label_tekst3.Visible = false;
             // 
             // Form1
             // 
@@ -696,7 +722,7 @@
         private System.Windows.Forms.Label label_LiczbaNat;
         private System.Windows.Forms.Label label_OperacjeLogiczne;
         private System.Windows.Forms.TabPage tabPage_Menu1;
-        private System.Windows.Forms.Label label_tekst;
+        private System.Windows.Forms.Label label_tekst1;
         private System.Windows.Forms.Label label_pytanie;
         private System.Windows.Forms.Label label_Myślenie;
         private System.Windows.Forms.Label label_OperacjeLogiczne2;
@@ -721,6 +747,8 @@
         private System.Windows.Forms.Label label_Płaska;
         private System.Windows.Forms.Label label_Przestrzenna;
         private System.Windows.Forms.Label label_Czasu;
+        private System.Windows.Forms.Label label_tekst3;
+        private System.Windows.Forms.Label label_tekst2;
     }
 }
 

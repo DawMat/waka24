@@ -36,6 +36,9 @@ namespace tosia
 
             label_Tytuł.Text = NazwyGUI.label_Tytuł;
             label_Waka.Text = NazwyGUI.label_Waka;
+            label_tekst1.Text = NazwyGUI.label_tekst1;
+            label_tekst2.Text = NazwyGUI.label_tekst2;
+            label_tekst3.Text = NazwyGUI.label_tekst3;
             label_EdukacjaMatematyczna.Text = NazwyGUI.label_EdukacjaMatematyczna;
             label_OperacjeLogiczne.Text = NazwyGUI.label_OperacjeLogiczne;
             label_Klasyfikacja.Text = NazwyGUI.label_Klasyfikacja;
@@ -105,7 +108,9 @@ namespace tosia
             playSound("sounds/bylaSobieZabkaMala.wav");
 
             pictureBox_Next.Visible = true;
-            label_tekst.Visible = true;
+            label_tekst1.Visible = true;
+            label_tekst2.Visible = true;
+            label_tekst3.Visible = true;
         }
 
         private void pictureBox_TosiaMenu_Click(object sender, EventArgs e)
