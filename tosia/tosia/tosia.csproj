@@ -188,5 +188,74 @@
   <ItemGroup>
     <None Include="Resources\z1p1\zoltyTrojkat.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\brakKasku.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\brudnedlonie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\czerwonyProstokat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\czysteDlonie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\czytanie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\deska.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\jajka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\kolano.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\ksiazki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\kura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\mlotek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\mydlo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\niebieskiProstokat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\pisanki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\plot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\pomaranczoweKolo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\pomysl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\rolki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\zioloneKolo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\zolteKolo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\ramka2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\ramka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p2\ramka3.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -153,6 +153,26 @@ namespace tosia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap brakKasku {
+            get {
+                object obj = ResourceManager.GetObject("brakKasku", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap brudnedlonie {
+            get {
+                object obj = ResourceManager.GetObject("brudnedlonie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cukierki {
             get {
                 object obj = ResourceManager.GetObject("cukierki", resourceCulture);
@@ -163,9 +183,49 @@ namespace tosia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap czerwonyProstokat {
+            get {
+                object obj = ResourceManager.GetObject("czerwonyProstokat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap czerwonyTrojkat {
             get {
                 object obj = ResourceManager.GetObject("czerwonyTrojkat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap czysteDlonie {
+            get {
+                object obj = ResourceManager.GetObject("czysteDlonie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap czytanie {
+            get {
+                object obj = ResourceManager.GetObject("czytanie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap deska {
+            get {
+                object obj = ResourceManager.GetObject("deska", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,6 +273,16 @@ namespace tosia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap jajka {
+            get {
+                object obj = ResourceManager.GetObject("jajka", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap klos {
             get {
                 object obj = ResourceManager.GetObject("klos", resourceCulture);
@@ -223,9 +293,39 @@ namespace tosia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kolano {
+            get {
+                object obj = ResourceManager.GetObject("kolano", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap krowa {
             get {
                 object obj = ResourceManager.GetObject("krowa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ksiazki {
+            get {
+                object obj = ResourceManager.GetObject("ksiazki", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kura {
+            get {
+                object obj = ResourceManager.GetObject("kura", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,6 +353,16 @@ namespace tosia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mlotek {
+            get {
+                object obj = ResourceManager.GetObject("mlotek", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap musicOFF {
             get {
                 object obj = ResourceManager.GetObject("musicOFF", resourceCulture);
@@ -266,6 +376,16 @@ namespace tosia.Properties {
         internal static System.Drawing.Bitmap musicON {
             get {
                 object obj = ResourceManager.GetObject("musicON", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mydlo {
+            get {
+                object obj = ResourceManager.GetObject("mydlo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,6 +413,16 @@ namespace tosia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap niebieskiProstokat {
+            get {
+                object obj = ResourceManager.GetObject("niebieskiProstokat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap no {
             get {
                 object obj = ResourceManager.GetObject("no", resourceCulture);
@@ -313,6 +443,36 @@ namespace tosia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pisanki {
+            get {
+                object obj = ResourceManager.GetObject("pisanki", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plot {
+            get {
+                object obj = ResourceManager.GetObject("plot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pomaranczoweKolo {
+            get {
+                object obj = ResourceManager.GetObject("pomaranczoweKolo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pomaranczowyTrojkat {
             get {
                 object obj = ResourceManager.GetObject("pomaranczowyTrojkat", resourceCulture);
@@ -323,9 +483,49 @@ namespace tosia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ramka {
+        internal static System.Drawing.Bitmap pomysl {
             get {
-                object obj = ResourceManager.GetObject("ramka", resourceCulture);
+                object obj = ResourceManager.GetObject("pomysl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ramka1 {
+            get {
+                object obj = ResourceManager.GetObject("ramka1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ramka2 {
+            get {
+                object obj = ResourceManager.GetObject("ramka2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ramka3 {
+            get {
+                object obj = ResourceManager.GetObject("ramka3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rolki {
+            get {
+                object obj = ResourceManager.GetObject("rolki", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,9 +583,29 @@ namespace tosia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap zioloneKolo {
+            get {
+                object obj = ResourceManager.GetObject("zioloneKolo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ziolonyTrojkat {
             get {
                 object obj = ResourceManager.GetObject("ziolonyTrojkat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zolteKolo {
+            get {
+                object obj = ResourceManager.GetObject("zolteKolo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
