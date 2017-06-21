@@ -314,11 +314,6 @@ namespace tosia
             tabControl.SelectedTab = tabPage_Menu;
         }
 
-        private void label_Operacja_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox_Menu_Click(object sender, EventArgs e)
         {
             tabControl.SelectedTab = tabPage_Menu;
@@ -326,6 +321,22 @@ namespace tosia
 
         private void pictureBox_Z1_Click(object sender, EventArgs e)
         {
+            #region resetowanie
+            pictureBox_owca.Location = new Point(77, 52);
+            pictureBox_cukierki.Location = new Point(279, 71);
+            pictureBox_klos.Location = new Point(461, 52);
+            pictureBox_truskawki.Location = new Point(653, 71);
+            pictureBox_krowa.Location = new Point(829, 71);
+            pictureBox_maka.Location = new Point(62, 348);
+            pictureBox_mleko.Location = new Point(200, 391);
+            pictureBox_zeby.Location = new Point(353, 381);
+            pictureBox_welna.Location = new Point(529, 391);
+            pictureBox_dzem.Location = new Point(731, 375);
+            #endregion resetowanie
+
+            polecenie = 3;
+            pictureBox_dalej.Visible = false;
+            pictureBox_balonik.Enabled = true;
             tabControl.SelectedTab = tabPage_Z1P1;
             playSound("sounds/polecenia/polecenie1.wav");
         }
@@ -420,6 +431,7 @@ namespace tosia
                     break;
                 case 8:
                     playSound("sounds/polecenia/polecenie8.wav");
+                    tabControl.SelectedTab = tabPage_Z1P1Tosi;
                     break;
             }
 
@@ -429,6 +441,20 @@ namespace tosia
         {
             pictureBox_TakZ1P1.Visible = false;
             pictureBox_NieZ1P1.Visible = false;
+
+            #region resetowanie
+            pictureBox_owca.Location = new Point(77, 52);
+            pictureBox_cukierki.Location = new Point(279, 71);
+            pictureBox_klos.Location = new Point(461, 52);
+            pictureBox_truskawki.Location = new Point(653, 71);
+            pictureBox_krowa.Location = new Point(829, 71);
+            pictureBox_maka.Location = new Point(62, 348);
+            pictureBox_mleko.Location = new Point(200, 391);
+            pictureBox_zeby.Location = new Point(353, 381);
+            pictureBox_welna.Location = new Point(529, 391);
+            pictureBox_dzem.Location = new Point(731, 375);
+            #endregion resetowanie
+
             playSound("sounds/polecenia/polecenie6.wav");
             polecenie = 7;
         }
@@ -437,7 +463,55 @@ namespace tosia
         {
             pictureBox_TakZ1P1.Visible = false;
             pictureBox_NieZ1P1.Visible = false;
+
+            tabControl.SelectedTab = tabPage_Z1P1Tosi;
             playSound("sounds/polecenia/polecenie8.wav");
+        }
+
+        private void pictureBox_czerwonyTrojkat_Click(object sender, EventArgs e)
+        {
+            pictureBoxTosia1a.Visible = true;
+            pictureBoxTosia1b.Visible = true;
+
+            playSound("sounds/polecenia/polecenie9.wav");
+        }
+
+        private void pictureBox_niebieskiKwadrat_Click(object sender, EventArgs e)
+        {
+            pictureBoxTosia2a.Visible = true;
+            pictureBoxTosia2b.Visible = true;
+
+            playSound("sounds/polecenia/polecenie10.wav");
+        }
+
+        private void pictureBox_ziolonyTrojkat_Click(object sender, EventArgs e)
+        {
+            pictureBoxTosia3a.Visible = true;
+            pictureBoxTosia3b.Visible = true;
+
+            playSound("sounds/polecenia/polecenie11.wav");
+        }
+
+        private void pictureBox_zoltyKwadrat_Click(object sender, EventArgs e)
+        {
+            pictureBoxTosia4a.Visible = true;
+            pictureBoxTosia4b.Visible = true;
+
+            playSound("sounds/polecenia/polecenie12.wav");
+        }
+
+        private void pictureBox_pomaranczowyTrojkat_Click(object sender, EventArgs e)
+        {
+            pictureBoxTosia5a.Visible = true;
+            pictureBoxTosia5b.Visible = true;
+
+            playSound("sounds/polecenia/polecenie13.wav");
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            playSound("sounds/kumkum.wav");
+            tabControl.SelectedTab = tabPage_MenuKlasyfikacja;
         }
     }
 }

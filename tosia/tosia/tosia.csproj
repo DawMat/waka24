@@ -173,5 +173,20 @@
   <ItemGroup>
     <None Include="Resources\z1p1\zeby.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p1\czerwonyTrojkat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p1\niebieskiKwadrat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p1\pomaranczowyTrojkat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p1\ziolonyTrojkat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z1p1\zoltyTrojkat.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

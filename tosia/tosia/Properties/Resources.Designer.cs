@@ -163,6 +163,16 @@ namespace tosia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap czerwonyTrojkat {
+            get {
+                object obj = ResourceManager.GetObject("czerwonyTrojkat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dzem {
             get {
                 object obj = ResourceManager.GetObject("dzem", resourceCulture);
@@ -273,6 +283,16 @@ namespace tosia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap niebieskiKwadrat {
+            get {
+                object obj = ResourceManager.GetObject("niebieskiKwadrat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap no {
             get {
                 object obj = ResourceManager.GetObject("no", resourceCulture);
@@ -286,6 +306,16 @@ namespace tosia.Properties {
         internal static System.Drawing.Bitmap owca {
             get {
                 object obj = ResourceManager.GetObject("owca", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pomaranczowyTrojkat {
+            get {
+                object obj = ResourceManager.GetObject("pomaranczowyTrojkat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -346,6 +376,26 @@ namespace tosia.Properties {
         internal static System.Drawing.Bitmap zeby {
             get {
                 object obj = ResourceManager.GetObject("zeby", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ziolonyTrojkat {
+            get {
+                object obj = ResourceManager.GetObject("ziolonyTrojkat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zoltyKwadrat {
+            get {
+                object obj = ResourceManager.GetObject("zoltyKwadrat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
