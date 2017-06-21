@@ -23,7 +23,6 @@ namespace tosia
             #region nazwy GUI
             label_Tytuł.Text = NazwyGUI.label_Tytuł;
             label_Waka.Text = NazwyGUI.label_Waka;
-            label_tekst.Text = NazwyGUI.label_tekst1;
             label_EdukacjaMatematyczna.Text = NazwyGUI.label_EdukacjaMatematyczna;
             label_OperacjeLogiczne.Text = NazwyGUI.label_OperacjeLogiczne;
             label_Klasyfikacja.Text = NazwyGUI.label_Klasyfikacja;
@@ -380,6 +379,7 @@ namespace tosia
                         break;
                     case 73:
                         label_tekst.Text = NazwyGUI.label_tekst7;
+                        timer1.Stop();
                         break;
                 }
 
@@ -389,8 +389,10 @@ namespace tosia
 
         private void pictureBox_TosiaSong_Click(object sender, EventArgs e)
         {
+            time = 0;
             playSound("sounds/bylaSobieZabkaMala.wav");
             timer1.Start();
+            label_tekst.Text = NazwyGUI.label_tekst1;
             pictureBox_Next.Visible = true;
             label_tekst.Visible = true;
 
