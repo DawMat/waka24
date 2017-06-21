@@ -13,7 +13,8 @@ namespace tosia
 {
     public partial class Form1 : Form
     {
-        public int polecenie = 3;
+        int polecenie = 3;
+        int time;
 
         public Form1()
         {
@@ -22,9 +23,7 @@ namespace tosia
             #region nazwy GUI
             label_Tytuł.Text = NazwyGUI.label_Tytuł;
             label_Waka.Text = NazwyGUI.label_Waka;
-            label_tekst1.Text = NazwyGUI.label_tekst1;
-            label_tekst2.Text = NazwyGUI.label_tekst2;
-            label_tekst3.Text = NazwyGUI.label_tekst3;
+            label_tekst.Text = NazwyGUI.label_tekst1;
             label_EdukacjaMatematyczna.Text = NazwyGUI.label_EdukacjaMatematyczna;
             label_OperacjeLogiczne.Text = NazwyGUI.label_OperacjeLogiczne;
             label_Klasyfikacja.Text = NazwyGUI.label_Klasyfikacja;
@@ -356,14 +355,45 @@ namespace tosia
             pictureBox_No.Visible = true;
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                time = time + 1;
+                //label_Tytuł.Text = time + "";
+                switch (time)
+                {
+                    case 19:
+                        label_tekst.Text = NazwyGUI.label_tekst2;
+                        break;
+                    case 28:
+                        label_tekst.Text = NazwyGUI.label_tekst3;
+                        break;
+                    case 37:
+                        label_tekst.Text = NazwyGUI.label_tekst4;
+                        break;
+                    case 55:
+                        label_tekst.Text = NazwyGUI.label_tekst5;
+                        break;
+                    case 64:
+                        label_tekst.Text = NazwyGUI.label_tekst6;
+                        break;
+                    case 73:
+                        label_tekst.Text = NazwyGUI.label_tekst7;
+                        break;
+                }
+
+
+            }
+        }
+
         private void pictureBox_TosiaSong_Click(object sender, EventArgs e)
         {
             playSound("sounds/bylaSobieZabkaMala.wav");
-
+            timer1.Start();
             pictureBox_Next.Visible = true;
-            label_tekst1.Visible = true;
-            label_tekst2.Visible = true;
-            label_tekst3.Visible = true;
+            label_tekst.Visible = true;
+
         }
 
         private void pictureBox_TosiaMenu_Click(object sender, EventArgs e)

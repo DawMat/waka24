@@ -28,13 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabPage_Song = new System.Windows.Forms.TabPage();
-            this.label_tekst3 = new System.Windows.Forms.Label();
-            this.label_tekst2 = new System.Windows.Forms.Label();
-            this.label_tekst1 = new System.Windows.Forms.Label();
+            this.label_tekst = new System.Windows.Forms.Label();
+            this.pictureBox_TosiaSong = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Next = new System.Windows.Forms.PictureBox();
             this.tabPage_Start = new System.Windows.Forms.TabPage();
+            this.pictureBox_TosiaHome = new System.Windows.Forms.PictureBox();
             this.label_pytanie = new System.Windows.Forms.Label();
+            this.pictureBox_No = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Yes = new System.Windows.Forms.PictureBox();
             this.label_Tytuł = new System.Windows.Forms.Label();
             this.label_Waka = new System.Windows.Forms.Label();
             this.tabControl = new System.Windows.Forms.TabControl();
@@ -50,26 +54,19 @@
             this.label_LiczbaNat = new System.Windows.Forms.Label();
             this.label_OperacjeLogiczne = new System.Windows.Forms.Label();
             this.label_EdukacjaMatematyczna = new System.Windows.Forms.Label();
+            this.pictureBox_TosiaMenu = new System.Windows.Forms.PictureBox();
             this.tabPage_MenuKlasyfikacja = new System.Windows.Forms.TabPage();
             this.groupBox_Zad2 = new System.Windows.Forms.GroupBox();
-            this.groupBox_Zad1 = new System.Windows.Forms.GroupBox();
-            this.label_Myślenie = new System.Windows.Forms.Label();
-            this.label_OperacjeLogiczne2 = new System.Windows.Forms.Label();
-            this.tabPage_Z1P1 = new System.Windows.Forms.TabPage();
-            this.label_Z1P1Tytuł = new System.Windows.Forms.Label();
-            this.tabPage_Z1P1Tosi = new System.Windows.Forms.TabPage();
-            this.pictureBox_TosiaHome = new System.Windows.Forms.PictureBox();
-            this.pictureBox_No = new System.Windows.Forms.PictureBox();
-            this.pictureBox_Yes = new System.Windows.Forms.PictureBox();
-            this.pictureBox_TosiaSong = new System.Windows.Forms.PictureBox();
-            this.pictureBox_Next = new System.Windows.Forms.PictureBox();
-            this.pictureBox_TosiaMenu = new System.Windows.Forms.PictureBox();
             this.pictureBox_Z2P2 = new System.Windows.Forms.PictureBox();
             this.pictureBox_Z2P1 = new System.Windows.Forms.PictureBox();
+            this.groupBox_Zad1 = new System.Windows.Forms.GroupBox();
             this.pictureBox_Z1P1 = new System.Windows.Forms.PictureBox();
             this.pictureBox_Z1P2 = new System.Windows.Forms.PictureBox();
+            this.label_Myślenie = new System.Windows.Forms.Label();
+            this.label_OperacjeLogiczne2 = new System.Windows.Forms.Label();
             this.pictureBox_TosiaKlasyfikacja = new System.Windows.Forms.PictureBox();
             this.pictureBox_Menu = new System.Windows.Forms.PictureBox();
+            this.tabPage_Z1P1 = new System.Windows.Forms.TabPage();
             this.pictureBox_krowa = new System.Windows.Forms.PictureBox();
             this.pictureBox_klos = new System.Windows.Forms.PictureBox();
             this.pictureBox_NieZ1P1 = new System.Windows.Forms.PictureBox();
@@ -84,7 +81,9 @@
             this.pictureBox_owca = new System.Windows.Forms.PictureBox();
             this.pictureBox_dalej = new System.Windows.Forms.PictureBox();
             this.pictureBox_balonik = new System.Windows.Forms.PictureBox();
+            this.label_Z1P1Tytuł = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tabPage_Z1P1Tosi = new System.Windows.Forms.TabPage();
             this.pictureBox_pomaranczowyTrojkat = new System.Windows.Forms.PictureBox();
             this.pictureBox_zoltyKwadrat = new System.Windows.Forms.PictureBox();
             this.pictureBox_ziolonyTrojkat = new System.Windows.Forms.PictureBox();
@@ -104,27 +103,27 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox_Exit = new System.Windows.Forms.PictureBox();
             this.pictureBox_UE = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tabPage_Song.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaSong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Next)).BeginInit();
             this.tabPage_Start.SuspendLayout();
-            this.tabControl.SuspendLayout();
-            this.tabPage_Menu.SuspendLayout();
-            this.tabPage_MenuKlasyfikacja.SuspendLayout();
-            this.groupBox_Zad2.SuspendLayout();
-            this.groupBox_Zad1.SuspendLayout();
-            this.tabPage_Z1P1.SuspendLayout();
-            this.tabPage_Z1P1Tosi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_No)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Yes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaSong)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Next)).BeginInit();
+            this.tabControl.SuspendLayout();
+            this.tabPage_Menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaMenu)).BeginInit();
+            this.tabPage_MenuKlasyfikacja.SuspendLayout();
+            this.groupBox_Zad2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z2P2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z2P1)).BeginInit();
+            this.groupBox_Zad1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z1P1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z1P2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaKlasyfikacja)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Menu)).BeginInit();
+            this.tabPage_Z1P1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_krowa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_klos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_NieZ1P1)).BeginInit();
@@ -140,6 +139,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_dalej)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_balonik)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabPage_Z1P1Tosi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pomaranczowyTrojkat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_zoltyKwadrat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_ziolonyTrojkat)).BeginInit();
@@ -164,9 +164,7 @@
             // tabPage_Song
             // 
             this.tabPage_Song.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage_Song.Controls.Add(this.label_tekst3);
-            this.tabPage_Song.Controls.Add(this.label_tekst2);
-            this.tabPage_Song.Controls.Add(this.label_tekst1);
+            this.tabPage_Song.Controls.Add(this.label_tekst);
             this.tabPage_Song.Controls.Add(this.pictureBox_TosiaSong);
             this.tabPage_Song.Controls.Add(this.pictureBox_Next);
             this.tabPage_Song.Location = new System.Drawing.Point(4, 16);
@@ -177,38 +175,41 @@
             this.tabPage_Song.Text = "tabPage_Song";
             this.tabPage_Song.UseVisualStyleBackColor = true;
             // 
-            // label_tekst3
+            // label_tekst
             // 
-            this.label_tekst3.AutoSize = true;
-            this.label_tekst3.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_tekst3.Location = new System.Drawing.Point(690, 10);
-            this.label_tekst3.Name = "label_tekst3";
-            this.label_tekst3.Size = new System.Drawing.Size(90, 34);
-            this.label_tekst3.TabIndex = 10;
-            this.label_tekst3.Text = "//tekst3";
-            this.label_tekst3.Visible = false;
+            this.label_tekst.AutoSize = true;
+            this.label_tekst.Font = new System.Drawing.Font("ElementarzDwa", 40F);
+            this.label_tekst.Location = new System.Drawing.Point(213, 44);
+            this.label_tekst.Name = "label_tekst";
+            this.label_tekst.Size = new System.Drawing.Size(209, 68);
+            this.label_tekst.TabIndex = 6;
+            this.label_tekst.Text = "label_tekst";
+            this.label_tekst.Visible = false;
             // 
-            // label_tekst2
+            // pictureBox_TosiaSong
             // 
-            this.label_tekst2.AutoSize = true;
-            this.label_tekst2.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_tekst2.Location = new System.Drawing.Point(360, 10);
-            this.label_tekst2.Name = "label_tekst2";
-            this.label_tekst2.Size = new System.Drawing.Size(90, 34);
-            this.label_tekst2.TabIndex = 9;
-            this.label_tekst2.Text = "//tekst2";
-            this.label_tekst2.Visible = false;
+            this.pictureBox_TosiaSong.Image = global::tosia.Properties.Resources.frog;
+            this.pictureBox_TosiaSong.Location = new System.Drawing.Point(18, 347);
+            this.pictureBox_TosiaSong.Margin = new System.Windows.Forms.Padding(25);
+            this.pictureBox_TosiaSong.Name = "pictureBox_TosiaSong";
+            this.pictureBox_TosiaSong.Size = new System.Drawing.Size(182, 130);
+            this.pictureBox_TosiaSong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_TosiaSong.TabIndex = 8;
+            this.pictureBox_TosiaSong.TabStop = false;
+            this.pictureBox_TosiaSong.Click += new System.EventHandler(this.pictureBox_TosiaSong_Click);
             // 
-            // label_tekst1
+            // pictureBox_Next
             // 
-            this.label_tekst1.AutoSize = true;
-            this.label_tekst1.Font = new System.Drawing.Font("ElementarzDwa", 20F);
-            this.label_tekst1.Location = new System.Drawing.Point(22, 10);
-            this.label_tekst1.Name = "label_tekst1";
-            this.label_tekst1.Size = new System.Drawing.Size(86, 34);
-            this.label_tekst1.TabIndex = 6;
-            this.label_tekst1.Text = "//tekst1";
-            this.label_tekst1.Visible = false;
+            this.pictureBox_Next.Image = global::tosia.Properties.Resources.next;
+            this.pictureBox_Next.Location = new System.Drawing.Point(890, 374);
+            this.pictureBox_Next.Margin = new System.Windows.Forms.Padding(25);
+            this.pictureBox_Next.Name = "pictureBox_Next";
+            this.pictureBox_Next.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox_Next.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Next.TabIndex = 7;
+            this.pictureBox_Next.TabStop = false;
+            this.pictureBox_Next.Visible = false;
+            this.pictureBox_Next.Click += new System.EventHandler(this.pictureBox_Next_Click);
             // 
             // tabPage_Start
             // 
@@ -225,6 +226,18 @@
             this.tabPage_Start.TabIndex = 0;
             this.tabPage_Start.Text = "tabPage_Start";
             // 
+            // pictureBox_TosiaHome
+            // 
+            this.pictureBox_TosiaHome.Image = global::tosia.Properties.Resources.frog;
+            this.pictureBox_TosiaHome.Location = new System.Drawing.Point(296, 97);
+            this.pictureBox_TosiaHome.Margin = new System.Windows.Forms.Padding(25);
+            this.pictureBox_TosiaHome.Name = "pictureBox_TosiaHome";
+            this.pictureBox_TosiaHome.Size = new System.Drawing.Size(432, 309);
+            this.pictureBox_TosiaHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox_TosiaHome.TabIndex = 6;
+            this.pictureBox_TosiaHome.TabStop = false;
+            this.pictureBox_TosiaHome.Click += new System.EventHandler(this.pictureBox_TosiaHome_Click);
+            // 
             // label_pytanie
             // 
             this.label_pytanie.AutoSize = true;
@@ -234,6 +247,32 @@
             this.label_pytanie.Size = new System.Drawing.Size(223, 34);
             this.label_pytanie.TabIndex = 5;
             this.label_pytanie.Text = "//pytanie o piosenkę";
+            // 
+            // pictureBox_No
+            // 
+            this.pictureBox_No.Image = global::tosia.Properties.Resources.no;
+            this.pictureBox_No.Location = new System.Drawing.Point(109, 201);
+            this.pictureBox_No.Margin = new System.Windows.Forms.Padding(100);
+            this.pictureBox_No.Name = "pictureBox_No";
+            this.pictureBox_No.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox_No.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_No.TabIndex = 4;
+            this.pictureBox_No.TabStop = false;
+            this.pictureBox_No.Visible = false;
+            this.pictureBox_No.Click += new System.EventHandler(this.pictureBox_No_Click);
+            // 
+            // pictureBox_Yes
+            // 
+            this.pictureBox_Yes.Image = global::tosia.Properties.Resources.yes;
+            this.pictureBox_Yes.Location = new System.Drawing.Point(815, 201);
+            this.pictureBox_Yes.Margin = new System.Windows.Forms.Padding(100);
+            this.pictureBox_Yes.Name = "pictureBox_Yes";
+            this.pictureBox_Yes.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox_Yes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Yes.TabIndex = 3;
+            this.pictureBox_Yes.TabStop = false;
+            this.pictureBox_Yes.Visible = false;
+            this.pictureBox_Yes.Click += new System.EventHandler(this.pictureBox_Yes_Click);
             // 
             // label_Tytuł
             // 
@@ -447,6 +486,18 @@
             this.label_EdukacjaMatematyczna.TabIndex = 4;
             this.label_EdukacjaMatematyczna.Text = "label_EdukacjaMatematyczna";
             // 
+            // pictureBox_TosiaMenu
+            // 
+            this.pictureBox_TosiaMenu.Image = global::tosia.Properties.Resources.frog;
+            this.pictureBox_TosiaMenu.Location = new System.Drawing.Point(421, 347);
+            this.pictureBox_TosiaMenu.Margin = new System.Windows.Forms.Padding(25);
+            this.pictureBox_TosiaMenu.Name = "pictureBox_TosiaMenu";
+            this.pictureBox_TosiaMenu.Size = new System.Drawing.Size(182, 130);
+            this.pictureBox_TosiaMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_TosiaMenu.TabIndex = 10;
+            this.pictureBox_TosiaMenu.TabStop = false;
+            this.pictureBox_TosiaMenu.Click += new System.EventHandler(this.pictureBox_TosiaMenu_Click);
+            // 
             // tabPage_MenuKlasyfikacja
             // 
             this.tabPage_MenuKlasyfikacja.Controls.Add(this.groupBox_Zad2);
@@ -476,6 +527,29 @@
             this.groupBox_Zad2.TabStop = false;
             this.groupBox_Zad2.Text = "groupBox_Zad2";
             // 
+            // pictureBox_Z2P2
+            // 
+            this.pictureBox_Z2P2.Image = global::tosia.Properties.Resources._2;
+            this.pictureBox_Z2P2.Location = new System.Drawing.Point(163, 51);
+            this.pictureBox_Z2P2.Margin = new System.Windows.Forms.Padding(20);
+            this.pictureBox_Z2P2.Name = "pictureBox_Z2P2";
+            this.pictureBox_Z2P2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox_Z2P2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Z2P2.TabIndex = 9;
+            this.pictureBox_Z2P2.TabStop = false;
+            // 
+            // pictureBox_Z2P1
+            // 
+            this.pictureBox_Z2P1.Enabled = false;
+            this.pictureBox_Z2P1.Image = global::tosia.Properties.Resources._1;
+            this.pictureBox_Z2P1.Location = new System.Drawing.Point(23, 51);
+            this.pictureBox_Z2P1.Margin = new System.Windows.Forms.Padding(20);
+            this.pictureBox_Z2P1.Name = "pictureBox_Z2P1";
+            this.pictureBox_Z2P1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox_Z2P1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Z2P1.TabIndex = 18;
+            this.pictureBox_Z2P1.TabStop = false;
+            // 
             // groupBox_Zad1
             // 
             this.groupBox_Zad1.Controls.Add(this.pictureBox_Z1P1);
@@ -488,6 +562,30 @@
             this.groupBox_Zad1.TabIndex = 16;
             this.groupBox_Zad1.TabStop = false;
             this.groupBox_Zad1.Text = "groupBox_Zad1";
+            // 
+            // pictureBox_Z1P1
+            // 
+            this.pictureBox_Z1P1.Enabled = false;
+            this.pictureBox_Z1P1.Image = global::tosia.Properties.Resources._1;
+            this.pictureBox_Z1P1.Location = new System.Drawing.Point(23, 49);
+            this.pictureBox_Z1P1.Margin = new System.Windows.Forms.Padding(20);
+            this.pictureBox_Z1P1.Name = "pictureBox_Z1P1";
+            this.pictureBox_Z1P1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox_Z1P1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Z1P1.TabIndex = 7;
+            this.pictureBox_Z1P1.TabStop = false;
+            this.pictureBox_Z1P1.Click += new System.EventHandler(this.pictureBox_Z1_Click);
+            // 
+            // pictureBox_Z1P2
+            // 
+            this.pictureBox_Z1P2.Image = global::tosia.Properties.Resources._2;
+            this.pictureBox_Z1P2.Location = new System.Drawing.Point(163, 49);
+            this.pictureBox_Z1P2.Margin = new System.Windows.Forms.Padding(20);
+            this.pictureBox_Z1P2.Name = "pictureBox_Z1P2";
+            this.pictureBox_Z1P2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox_Z1P2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Z1P2.TabIndex = 8;
+            this.pictureBox_Z1P2.TabStop = false;
             // 
             // label_Myślenie
             // 
@@ -515,6 +613,29 @@
             this.label_OperacjeLogiczne2.TabIndex = 5;
             this.label_OperacjeLogiczne2.Text = "label_OperacjeLogiczne2";
             // 
+            // pictureBox_TosiaKlasyfikacja
+            // 
+            this.pictureBox_TosiaKlasyfikacja.Image = global::tosia.Properties.Resources.frog;
+            this.pictureBox_TosiaKlasyfikacja.Location = new System.Drawing.Point(421, 347);
+            this.pictureBox_TosiaKlasyfikacja.Margin = new System.Windows.Forms.Padding(25);
+            this.pictureBox_TosiaKlasyfikacja.Name = "pictureBox_TosiaKlasyfikacja";
+            this.pictureBox_TosiaKlasyfikacja.Size = new System.Drawing.Size(182, 130);
+            this.pictureBox_TosiaKlasyfikacja.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_TosiaKlasyfikacja.TabIndex = 15;
+            this.pictureBox_TosiaKlasyfikacja.TabStop = false;
+            this.pictureBox_TosiaKlasyfikacja.Click += new System.EventHandler(this.pictureBox_TosiaKlasyfikacja_Click);
+            // 
+            // pictureBox_Menu
+            // 
+            this.pictureBox_Menu.Image = global::tosia.Properties.Resources.home;
+            this.pictureBox_Menu.Location = new System.Drawing.Point(18, 13);
+            this.pictureBox_Menu.Name = "pictureBox_Menu";
+            this.pictureBox_Menu.Size = new System.Drawing.Size(75, 75);
+            this.pictureBox_Menu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Menu.TabIndex = 12;
+            this.pictureBox_Menu.TabStop = false;
+            this.pictureBox_Menu.Click += new System.EventHandler(this.pictureBox_Menu_Click);
+            // 
             // tabPage_Z1P1
             // 
             this.tabPage_Z1P1.Controls.Add(this.pictureBox_krowa);
@@ -540,191 +661,6 @@
             this.tabPage_Z1P1.TabIndex = 4;
             this.tabPage_Z1P1.Text = "tabPage_Z1P1";
             this.tabPage_Z1P1.UseVisualStyleBackColor = true;
-            // 
-            // label_Z1P1Tytuł
-            // 
-            this.label_Z1P1Tytuł.AutoSize = true;
-            this.label_Z1P1Tytuł.BackColor = System.Drawing.Color.Transparent;
-            this.label_Z1P1Tytuł.Font = new System.Drawing.Font("ElementarzDwa", 20F, System.Drawing.FontStyle.Bold);
-            this.label_Z1P1Tytuł.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_Z1P1Tytuł.Location = new System.Drawing.Point(10, 13);
-            this.label_Z1P1Tytuł.Margin = new System.Windows.Forms.Padding(10);
-            this.label_Z1P1Tytuł.Name = "label_Z1P1Tytuł";
-            this.label_Z1P1Tytuł.Size = new System.Drawing.Size(172, 34);
-            this.label_Z1P1Tytuł.TabIndex = 6;
-            this.label_Z1P1Tytuł.Text = "label_Z1P1Tytuł";
-            // 
-            // tabPage_Z1P1Tosi
-            // 
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox_pomaranczowyTrojkat);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox_zoltyKwadrat);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox_ziolonyTrojkat);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox_niebieskiKwadrat);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox_czerwonyTrojkat);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia3a);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia4a);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia5b);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia5a);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia2a);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia4b);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia3b);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia2b);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia1b);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia1a);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox2);
-            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox3);
-            this.tabPage_Z1P1Tosi.Location = new System.Drawing.Point(4, 16);
-            this.tabPage_Z1P1Tosi.Name = "tabPage_Z1P1Tosi";
-            this.tabPage_Z1P1Tosi.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Z1P1Tosi.Size = new System.Drawing.Size(1024, 502);
-            this.tabPage_Z1P1Tosi.TabIndex = 5;
-            this.tabPage_Z1P1Tosi.Text = "tabPage1";
-            this.tabPage_Z1P1Tosi.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox_TosiaHome
-            // 
-            this.pictureBox_TosiaHome.Image = global::tosia.Properties.Resources.frog;
-            this.pictureBox_TosiaHome.Location = new System.Drawing.Point(296, 97);
-            this.pictureBox_TosiaHome.Margin = new System.Windows.Forms.Padding(25);
-            this.pictureBox_TosiaHome.Name = "pictureBox_TosiaHome";
-            this.pictureBox_TosiaHome.Size = new System.Drawing.Size(432, 309);
-            this.pictureBox_TosiaHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox_TosiaHome.TabIndex = 6;
-            this.pictureBox_TosiaHome.TabStop = false;
-            this.pictureBox_TosiaHome.Click += new System.EventHandler(this.pictureBox_TosiaHome_Click);
-            // 
-            // pictureBox_No
-            // 
-            this.pictureBox_No.Image = global::tosia.Properties.Resources.no;
-            this.pictureBox_No.Location = new System.Drawing.Point(109, 201);
-            this.pictureBox_No.Margin = new System.Windows.Forms.Padding(100);
-            this.pictureBox_No.Name = "pictureBox_No";
-            this.pictureBox_No.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox_No.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_No.TabIndex = 4;
-            this.pictureBox_No.TabStop = false;
-            this.pictureBox_No.Visible = false;
-            this.pictureBox_No.Click += new System.EventHandler(this.pictureBox_No_Click);
-            // 
-            // pictureBox_Yes
-            // 
-            this.pictureBox_Yes.Image = global::tosia.Properties.Resources.yes;
-            this.pictureBox_Yes.Location = new System.Drawing.Point(815, 201);
-            this.pictureBox_Yes.Margin = new System.Windows.Forms.Padding(100);
-            this.pictureBox_Yes.Name = "pictureBox_Yes";
-            this.pictureBox_Yes.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox_Yes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Yes.TabIndex = 3;
-            this.pictureBox_Yes.TabStop = false;
-            this.pictureBox_Yes.Visible = false;
-            this.pictureBox_Yes.Click += new System.EventHandler(this.pictureBox_Yes_Click);
-            // 
-            // pictureBox_TosiaSong
-            // 
-            this.pictureBox_TosiaSong.Image = global::tosia.Properties.Resources.frog;
-            this.pictureBox_TosiaSong.Location = new System.Drawing.Point(18, 347);
-            this.pictureBox_TosiaSong.Margin = new System.Windows.Forms.Padding(25);
-            this.pictureBox_TosiaSong.Name = "pictureBox_TosiaSong";
-            this.pictureBox_TosiaSong.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox_TosiaSong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_TosiaSong.TabIndex = 8;
-            this.pictureBox_TosiaSong.TabStop = false;
-            this.pictureBox_TosiaSong.Click += new System.EventHandler(this.pictureBox_TosiaSong_Click);
-            // 
-            // pictureBox_Next
-            // 
-            this.pictureBox_Next.Image = global::tosia.Properties.Resources.next;
-            this.pictureBox_Next.Location = new System.Drawing.Point(890, 374);
-            this.pictureBox_Next.Margin = new System.Windows.Forms.Padding(25);
-            this.pictureBox_Next.Name = "pictureBox_Next";
-            this.pictureBox_Next.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox_Next.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Next.TabIndex = 7;
-            this.pictureBox_Next.TabStop = false;
-            this.pictureBox_Next.Visible = false;
-            this.pictureBox_Next.Click += new System.EventHandler(this.pictureBox_Next_Click);
-            // 
-            // pictureBox_TosiaMenu
-            // 
-            this.pictureBox_TosiaMenu.Image = global::tosia.Properties.Resources.frog;
-            this.pictureBox_TosiaMenu.Location = new System.Drawing.Point(421, 347);
-            this.pictureBox_TosiaMenu.Margin = new System.Windows.Forms.Padding(25);
-            this.pictureBox_TosiaMenu.Name = "pictureBox_TosiaMenu";
-            this.pictureBox_TosiaMenu.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox_TosiaMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_TosiaMenu.TabIndex = 10;
-            this.pictureBox_TosiaMenu.TabStop = false;
-            this.pictureBox_TosiaMenu.Click += new System.EventHandler(this.pictureBox_TosiaMenu_Click);
-            // 
-            // pictureBox_Z2P2
-            // 
-            this.pictureBox_Z2P2.Image = global::tosia.Properties.Resources._2;
-            this.pictureBox_Z2P2.Location = new System.Drawing.Point(163, 51);
-            this.pictureBox_Z2P2.Margin = new System.Windows.Forms.Padding(20);
-            this.pictureBox_Z2P2.Name = "pictureBox_Z2P2";
-            this.pictureBox_Z2P2.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox_Z2P2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Z2P2.TabIndex = 9;
-            this.pictureBox_Z2P2.TabStop = false;
-            // 
-            // pictureBox_Z2P1
-            // 
-            this.pictureBox_Z2P1.Enabled = false;
-            this.pictureBox_Z2P1.Image = global::tosia.Properties.Resources._1;
-            this.pictureBox_Z2P1.Location = new System.Drawing.Point(23, 51);
-            this.pictureBox_Z2P1.Margin = new System.Windows.Forms.Padding(20);
-            this.pictureBox_Z2P1.Name = "pictureBox_Z2P1";
-            this.pictureBox_Z2P1.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox_Z2P1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Z2P1.TabIndex = 18;
-            this.pictureBox_Z2P1.TabStop = false;
-            // 
-            // pictureBox_Z1P1
-            // 
-            this.pictureBox_Z1P1.Enabled = false;
-            this.pictureBox_Z1P1.Image = global::tosia.Properties.Resources._1;
-            this.pictureBox_Z1P1.Location = new System.Drawing.Point(23, 49);
-            this.pictureBox_Z1P1.Margin = new System.Windows.Forms.Padding(20);
-            this.pictureBox_Z1P1.Name = "pictureBox_Z1P1";
-            this.pictureBox_Z1P1.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox_Z1P1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Z1P1.TabIndex = 7;
-            this.pictureBox_Z1P1.TabStop = false;
-            this.pictureBox_Z1P1.Click += new System.EventHandler(this.pictureBox_Z1_Click);
-            // 
-            // pictureBox_Z1P2
-            // 
-            this.pictureBox_Z1P2.Image = global::tosia.Properties.Resources._2;
-            this.pictureBox_Z1P2.Location = new System.Drawing.Point(163, 49);
-            this.pictureBox_Z1P2.Margin = new System.Windows.Forms.Padding(20);
-            this.pictureBox_Z1P2.Name = "pictureBox_Z1P2";
-            this.pictureBox_Z1P2.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox_Z1P2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Z1P2.TabIndex = 8;
-            this.pictureBox_Z1P2.TabStop = false;
-            // 
-            // pictureBox_TosiaKlasyfikacja
-            // 
-            this.pictureBox_TosiaKlasyfikacja.Image = global::tosia.Properties.Resources.frog;
-            this.pictureBox_TosiaKlasyfikacja.Location = new System.Drawing.Point(421, 347);
-            this.pictureBox_TosiaKlasyfikacja.Margin = new System.Windows.Forms.Padding(25);
-            this.pictureBox_TosiaKlasyfikacja.Name = "pictureBox_TosiaKlasyfikacja";
-            this.pictureBox_TosiaKlasyfikacja.Size = new System.Drawing.Size(182, 130);
-            this.pictureBox_TosiaKlasyfikacja.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_TosiaKlasyfikacja.TabIndex = 15;
-            this.pictureBox_TosiaKlasyfikacja.TabStop = false;
-            this.pictureBox_TosiaKlasyfikacja.Click += new System.EventHandler(this.pictureBox_TosiaKlasyfikacja_Click);
-            // 
-            // pictureBox_Menu
-            // 
-            this.pictureBox_Menu.Image = global::tosia.Properties.Resources.home;
-            this.pictureBox_Menu.Location = new System.Drawing.Point(18, 13);
-            this.pictureBox_Menu.Name = "pictureBox_Menu";
-            this.pictureBox_Menu.Size = new System.Drawing.Size(75, 75);
-            this.pictureBox_Menu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Menu.TabIndex = 12;
-            this.pictureBox_Menu.TabStop = false;
-            this.pictureBox_Menu.Click += new System.EventHandler(this.pictureBox_Menu_Click);
             // 
             // pictureBox_krowa
             // 
@@ -888,6 +824,19 @@
             this.pictureBox_balonik.TabStop = false;
             this.pictureBox_balonik.Click += new System.EventHandler(this.pictureBox_balonik_Click);
             // 
+            // label_Z1P1Tytuł
+            // 
+            this.label_Z1P1Tytuł.AutoSize = true;
+            this.label_Z1P1Tytuł.BackColor = System.Drawing.Color.Transparent;
+            this.label_Z1P1Tytuł.Font = new System.Drawing.Font("ElementarzDwa", 20F, System.Drawing.FontStyle.Bold);
+            this.label_Z1P1Tytuł.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label_Z1P1Tytuł.Location = new System.Drawing.Point(10, 13);
+            this.label_Z1P1Tytuł.Margin = new System.Windows.Forms.Padding(10);
+            this.label_Z1P1Tytuł.Name = "label_Z1P1Tytuł";
+            this.label_Z1P1Tytuł.Size = new System.Drawing.Size(172, 34);
+            this.label_Z1P1Tytuł.TabIndex = 6;
+            this.label_Z1P1Tytuł.Text = "label_Z1P1Tytuł";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::tosia.Properties.Resources.ramka;
@@ -897,6 +846,33 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 40;
             this.pictureBox1.TabStop = false;
+            // 
+            // tabPage_Z1P1Tosi
+            // 
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox_pomaranczowyTrojkat);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox_zoltyKwadrat);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox_ziolonyTrojkat);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox_niebieskiKwadrat);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox_czerwonyTrojkat);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia3a);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia4a);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia5b);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia5a);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia2a);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia4b);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia3b);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia2b);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia1b);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBoxTosia1a);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox2);
+            this.tabPage_Z1P1Tosi.Controls.Add(this.pictureBox3);
+            this.tabPage_Z1P1Tosi.Location = new System.Drawing.Point(4, 16);
+            this.tabPage_Z1P1Tosi.Name = "tabPage_Z1P1Tosi";
+            this.tabPage_Z1P1Tosi.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_Z1P1Tosi.Size = new System.Drawing.Size(1024, 502);
+            this.tabPage_Z1P1Tosi.TabIndex = 5;
+            this.tabPage_Z1P1Tosi.Text = "tabPage1";
+            this.tabPage_Z1P1Tosi.UseVisualStyleBackColor = true;
             // 
             // pictureBox_pomaranczowyTrojkat
             // 
@@ -1113,6 +1089,11 @@
             this.pictureBox_UE.TabIndex = 5;
             this.pictureBox_UE.TabStop = false;
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 34F);
@@ -1132,31 +1113,29 @@
             this.Text = "Form1";
             this.tabPage_Song.ResumeLayout(false);
             this.tabPage_Song.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaSong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Next)).EndInit();
             this.tabPage_Start.ResumeLayout(false);
             this.tabPage_Start.PerformLayout();
-            this.tabControl.ResumeLayout(false);
-            this.tabPage_Menu.ResumeLayout(false);
-            this.tabPage_Menu.PerformLayout();
-            this.tabPage_MenuKlasyfikacja.ResumeLayout(false);
-            this.tabPage_MenuKlasyfikacja.PerformLayout();
-            this.groupBox_Zad2.ResumeLayout(false);
-            this.groupBox_Zad1.ResumeLayout(false);
-            this.tabPage_Z1P1.ResumeLayout(false);
-            this.tabPage_Z1P1.PerformLayout();
-            this.tabPage_Z1P1Tosi.ResumeLayout(false);
-            this.tabPage_Z1P1Tosi.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_No)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Yes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaSong)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Next)).EndInit();
+            this.tabControl.ResumeLayout(false);
+            this.tabPage_Menu.ResumeLayout(false);
+            this.tabPage_Menu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaMenu)).EndInit();
+            this.tabPage_MenuKlasyfikacja.ResumeLayout(false);
+            this.tabPage_MenuKlasyfikacja.PerformLayout();
+            this.groupBox_Zad2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z2P2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z2P1)).EndInit();
+            this.groupBox_Zad1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z1P1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Z1P2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_TosiaKlasyfikacja)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Menu)).EndInit();
+            this.tabPage_Z1P1.ResumeLayout(false);
+            this.tabPage_Z1P1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_krowa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_klos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_NieZ1P1)).EndInit();
@@ -1172,6 +1151,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_dalej)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_balonik)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabPage_Z1P1Tosi.ResumeLayout(false);
+            this.tabPage_Z1P1Tosi.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_pomaranczowyTrojkat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_zoltyKwadrat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_ziolonyTrojkat)).EndInit();
@@ -1215,7 +1196,7 @@
         private System.Windows.Forms.Label label_LiczbaNat;
         private System.Windows.Forms.Label label_OperacjeLogiczne;
         private System.Windows.Forms.TabPage tabPage_MenuKlasyfikacja;
-        private System.Windows.Forms.Label label_tekst1;
+        private System.Windows.Forms.Label label_tekst;
         private System.Windows.Forms.Label label_pytanie;
         private System.Windows.Forms.Label label_Myślenie;
         private System.Windows.Forms.Label label_OperacjeLogiczne2;
@@ -1234,8 +1215,6 @@
         private System.Windows.Forms.Label label_Płaska;
         private System.Windows.Forms.Label label_Przestrzenna;
         private System.Windows.Forms.Label label_Czasu;
-        private System.Windows.Forms.Label label_tekst3;
-        private System.Windows.Forms.Label label_tekst2;
         private System.Windows.Forms.GroupBox groupBox_Zad1;
         private System.Windows.Forms.GroupBox groupBox_Zad2;
         private System.Windows.Forms.PictureBox pictureBox_Z2P2;
@@ -1273,6 +1252,7 @@
         private System.Windows.Forms.PictureBox pictureBox_ziolonyTrojkat;
         private System.Windows.Forms.PictureBox pictureBox_niebieskiKwadrat;
         private System.Windows.Forms.PictureBox pictureBox_czerwonyTrojkat;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

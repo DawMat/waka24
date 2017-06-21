@@ -10,9 +10,13 @@ namespace tosia
     {
         public static string label_Tytuł = "PRZYGODY ŻABKI TOSI \nZ MATEMATYKĄ";
         public static string label_Waka = "Wykwalifikowani, aktywni, komunikatywni absolwenci UKW";
-        public static string label_tekst1 = "Była sobie żabka mała \nre re kum kum, re re kum kum, \nktóra mamy nie słuchała \nre re kum kum bęc. \n\nNa spacery wychodziła \nre re kum kum, re re kum kum, \ninnym żabkom się dziwiła \nre re kum kum bęc.";
-        public static string label_tekst2 = "Ostrzegała ją mamusia \nre re kum kum, re re kum kum, \nby zważała na bociusia \nre re kum kum bęc.\n\nPrzyszedł bociek niespodzianie \nre re kum kum, re re kum kum, \ni zjadł żabke na śniadanie \nre re kum kum bęc.\n\nA na brzegu stare żaby \nre re kum kum, re re kum kum, \nrajcoway jak te baby \nre re kum kum bęc.";
-        public static string label_tekst3 = "Jedna drugiej żabie płacze \nre re kum kum, re re kum kum, \nJuż jej nigdy nie zobaczę \nre re kum kum bęc.\n\nZ tego taki morał mamy \nre re kum kum, re re kum kum \ntrzeba zawsze słuchać mamy \nre re kum kum bęc.";
+        public static string label_tekst1 = "Była sobie żabka mała \nre re kum kum, re re kum kum, \nktóra mamy nie słuchała \nre re kum kum bęc.";
+        public static string label_tekst2 = "Na spacery wychodziła \nre re kum kum, re re kum kum, \ninnym żabkom się dziwiła \nre re kum kum bęc.";
+        public static string label_tekst3 = "Ostrzegała ją mamusia \nre re kum kum, re re kum kum, \nby zważała na bociusia \nre re kum kum bęc.";
+        public static string label_tekst4 = "Przyszedł bociek niespodzianie \nre re kum kum, re re kum kum, \ni zjadł żabke na śniadanie \nre re kum kum bęc.";
+        public static string label_tekst5 = "A na brzegu stare żaby \nre re kum kum, re re kum kum, \nrajcoway jak te baby \nre re kum kum bęc.";
+        public static string label_tekst6 = "Jedna drugiej żabie płacze \nre re kum kum, re re kum kum, \nJuż jej nigdy nie zobaczę \nre re kum kum bęc.";
+        public static string label_tekst7 = "Z tego taki morał mamy \nre re kum kum, re re kum kum \ntrzeba zawsze słuchać mamy \nre re kum kum bęc.";
         public static string label_EdukacjaMatematyczna = "Edukacja matematyczna w przedszkolu";
         public static string label_OperacjeLogiczne = "1. Operacje logiczne";
         public static string label_Klasyfikacja = "A. Klasyfikacja";
