@@ -20,7 +20,7 @@ namespace tosia
         {
             InitializeComponent();
 
-                #region nazwy GUI
+            #region nazwy GUI
 
             label_Tytuł.Text = NazwyGUI.label_Tytuł;
             label_Waka.Text = NazwyGUI.label_Waka;
@@ -41,8 +41,9 @@ namespace tosia
             groupBox_Zad1.Text = NazwyGUI.groupBox_Zad1;
             groupBox_Zad2.Text = NazwyGUI.groupBox_Zad2;
             label_Z1P1Tytuł.Text = NazwyGUI.label_Z1P1Tytuł;
+            label_Z1P2Tytuł.Text = NazwyGUI.label_Z1P2Tytuł;
 
-                #endregion nazwy GUI
+            #endregion nazwy GUI
 
             INIT();
         }
@@ -119,15 +120,43 @@ namespace tosia
             pictureBox_brakKasku.Location = new Point(846, 29);
         }
 
+        public void resetowanieTosi()
+        {
+            pictureBoxTosia1a.Visible = false;
+            pictureBoxTosia1b.Visible = false;
+            pictureBoxTosia2a.Visible = false;
+            pictureBoxTosia2b.Visible = false;
+            pictureBoxTosia3a.Visible = false;
+            pictureBoxTosia3b.Visible = false;
+            pictureBoxTosia4a.Visible = false;
+            pictureBoxTosia4b.Visible = false;
+            pictureBoxTosia5a.Visible = false;
+            pictureBoxTosia5b.Visible = false;
+            pictureBoxTosia6a.Visible = false;
+            pictureBoxTosia6b.Visible = false;
+            pictureBoxTosia6c.Visible = false;
+            pictureBoxTosia7a.Visible = false;
+            pictureBoxTosia7b.Visible = false;
+            pictureBoxTosia7c.Visible = false;
+            pictureBoxTosia8a.Visible = false;
+            pictureBoxTosia8b.Visible = false;
+            pictureBoxTosia8c.Visible = false;
+            pictureBoxTosia9a.Visible = false;
+            pictureBoxTosia9b.Visible = false;
+            pictureBoxTosia9c.Visible = false;
+            pictureBoxTosia10a.Visible = false;
+            pictureBoxTosia10b.Visible = false;
+            pictureBoxTosia10c.Visible = false;
 
 
+        }
 
         #endregion RESETOWANIE
 
         #region przenoszenie obrazow
 
         private Point firstPoint = new Point();
-        
+
         public void INIT()
         {
             #region pictureBox_cukierki
@@ -142,7 +171,7 @@ namespace tosia
 
             pictureBox_cukierki.MouseMove += (ss, ee) =>
               {
-                  if (ee.Button==System.Windows.Forms.MouseButtons.Left)
+                  if (ee.Button == System.Windows.Forms.MouseButtons.Left)
                   {
                       Point temp = Control.MousePosition;
                       Point res = new Point(firstPoint.X - temp.X, firstPoint.Y - temp.Y);
@@ -756,7 +785,7 @@ namespace tosia
             playSound("sounds/polecenia/polecenie25.wav");
         }
 
-        private void pictureBox1_Exit (object sender, EventArgs e)
+        private void pictureBox1_Exit(object sender, EventArgs e)
         {
             Close();
         }
@@ -772,7 +801,7 @@ namespace tosia
 
                 case 27:
                     playSound("sounds/polecenia/polecenie27.wav");
-                    polecenie=29;
+                    polecenie = 29;
                     break;
 
                 case 29:
@@ -800,14 +829,27 @@ namespace tosia
         {
             playSound("stop");
             tabControl.SelectedTab = tabPage_Menu;
+            pictureBox_Menu.Visible = true;
         }
 
         private void pictureBox_Menu_Click(object sender, EventArgs e)
         {
+            playSound("stop");
+
             tabControl.SelectedTab = tabPage_Menu;
+            resetowanieZ1P1polozenie();
+            resetowanieZ1P1widocznosc();
+            resetowanieZ1P2polozenie1();
+            resetowanieZ1P2polozenie2();
+            resetowanieZ1P2widocznosc();
+
+            pictureBox_TakZ1P1.Visible = false;
+            pictureBox_TakZ1P2.Visible = false;
+            pictureBox_NieZ1P1.Visible = false;
+            pictureBox_NieZ1P2.Visible = false;
         }
-        
-            #region piosenka
+
+        #region piosenka
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -858,9 +900,10 @@ namespace tosia
             playSound("stop");
 
             tabControl.SelectedTab = tabPage_Menu;
+            pictureBox_Menu.Visible = true;
         }
-   
-            #endregion piosenka
+
+        #endregion piosenka
 
         private void pictureBox_TosiaMenu_Click(object sender, EventArgs e)
         {
@@ -891,36 +934,13 @@ namespace tosia
             //pictureBox_Z2P2.Image = Resources._2Color;
         }
 
-            #region zadanie1 poziom1
+        #region zadanie1 poziom1
 
         private void pictureBox_Z1P1_Click_1(object sender, EventArgs e)
         {
             resetowanieZ1P1polozenie();
             resetowanieZ1P1widocznosc();
-
-            #region resetowanie
-            //pictureBox_krowa.Visible = false;
-            //pictureBox_mleko.Visible = false;
-            //pictureBox_owca.Visible = false;
-            //pictureBox_welna.Visible = false;
-            //pictureBox_truskawki.Visible = false;
-            //pictureBox_dzem.Visible = false;
-            //pictureBox_klos.Visible = false;
-            //pictureBox_maka.Visible = false;
-            //pictureBox_cukierki.Visible = false;
-            //pictureBox_zeby.Visible = false;
-
-            //pictureBox_owca.Location = new Point(30, 82);
-            //pictureBox_cukierki.Location = new Point(235, 116);
-            //pictureBox_klos.Location = new Point(208, 404);
-            //pictureBox_truskawki.Location = new Point(104, 229);
-            //pictureBox_krowa.Location = new Point(46, 360);
-            //pictureBox_maka.Location = new Point(687, 71);
-            //pictureBox_mleko.Location = new Point(862, 116);
-            //pictureBox_zeby.Location = new Point(671, 229);
-            //pictureBox_welna.Location = new Point(831, 239);
-            //pictureBox_dzem.Location = new Point(734, 391);
-            #endregion resetowanie
+            resetowanieTosi();
 
             polecenie = 3;
             pictureBox_dalejZ1P1.Visible = false;
@@ -1066,41 +1086,12 @@ namespace tosia
             resetowanieZ1P2widocznosc();
             resetowanieZ1P2polozenie1();
             resetowanieZ1P2polozenie2();
-            #region resetowanie
+            resetowanieTosi();
 
-            //pictureBox_mlotek.Visible = false;
-            //pictureBox_pisanki.Visible = false;
-            //pictureBox_mydlo.Visible = false;
-            //pictureBox_czytanie.Visible = false;
-            //pictureBox_brakKasku.Visible = false;
-            //pictureBox_deska.Visible = false;
-            //pictureBox_kura.Visible = false;
-            //pictureBox_kolano.Visible = false;
-            //pictureBox_ksiazka.Visible = false;
-            //pictureBox_brudneDlonie.Visible = false;
-            //pictureBox_czysteDlonie.Visible = false;
-            //pictureBox_pomysl.Visible = false;
-            //pictureBox_rolki.Visible = false;
-            //pictureBox_plot.Visible = false;
-            //pictureBox_jajko.Visible = false;
-            //pictureBox_ramka1Z1P2.Visible = false;
-            //pictureBox_ramka2Z1P2.Visible = false;
-            //pictureBox_ramka3Z1P2.Visible = false;
-
-            //pictureBox_dalejZ1P2.Visible = false;
-            //pictureBox_balonikZ1P2.Enabled = true;
-
-            //pictureBox_mlotek.Location = new Point(186, 21);
-            //pictureBox_pisanki.Location = new Point(318, 21);
-            //pictureBox_mydlo.Location = new Point(452, 21);
-            //pictureBox_czytanie.Location = new Point(587, 21);
-            //pictureBox_brakKasku.Location = new Point(719, 21);
-
-            #endregion resetowanie
-            
             polecenie = 3;
-            pictureBox_dalejZ1P1.Visible = false;
-            pictureBox_balonikZ1P1.Enabled = true;
+            pictureBox_dalejZ1P2.Visible = false;
+            pictureBox_balonikZ1P2.Enabled = true;
+
             tabControl.SelectedTab = tabPage_Z1P2;
             playSound("sounds/polecenia/polecenie1.wav");
         }
@@ -1210,5 +1201,49 @@ namespace tosia
             tabControl.SelectedTab = tabPage_MenuKlasyfikacja;
         }
 
+        private void pictureBox_pomaranczoweKolo_Click(object sender, EventArgs e)
+        {
+            playSound("sounds/polecenia/polecenie28.8.wav");
+
+            pictureBoxTosia6a.Visible = true;
+            pictureBoxTosia6b.Visible = true;
+            pictureBoxTosia6c.Visible = true;
+        }
+
+        private void pictureBox_niebieskiProstokat_Click(object sender, EventArgs e)
+        {
+            playSound("sounds/polecenia/polecenie28.9.wav");
+
+            pictureBoxTosia7a.Visible = true;
+            pictureBoxTosia7b.Visible = true;
+            pictureBoxTosia7c.Visible = true;
+        }
+
+        private void pictureBox_zieloneKolo_Click(object sender, EventArgs e)
+        {
+            playSound("sounds/polecenia/polecenie28.7.wav");
+
+            pictureBoxTosia8a.Visible = true;
+            pictureBoxTosia8b.Visible = true;
+            pictureBoxTosia8c.Visible = true;
+        }
+
+        private void pictureBox_czerwonyProstokat_Click(object sender, EventArgs e)
+        {
+            playSound("sounds/polecenia/polecenie28.10.wav");
+
+            pictureBoxTosia9a.Visible = true;
+            pictureBoxTosia9b.Visible = true;
+            pictureBoxTosia9c.Visible = true;
+        }
+
+        private void pictureBox_zolteKolo_Click(object sender, EventArgs e)
+        {
+            playSound("sounds/polecenia/polecenie28.6.wav");
+
+            pictureBoxTosia10a.Visible = true;
+            pictureBoxTosia10b.Visible = true;
+            pictureBoxTosia10c.Visible = true;
+        }
     }
 }

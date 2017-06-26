@@ -260,5 +260,8 @@
   <ItemGroup>
     <None Include="Resources\ramkaPoziom1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ramkaPoziom2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
