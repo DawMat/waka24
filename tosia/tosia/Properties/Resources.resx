@@ -118,172 +118,175 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="balonik" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\balonik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="no" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\no.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ue_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ue_logo.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_4Color" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4Color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_3Color" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3Color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="next" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\next.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2Color" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2Color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="musicOFF" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\musicOFF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="yes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="brudnedlonie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\brudnedlonie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="frog" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="musicON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\musicON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_1Color" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1Color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cukierki" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\cukierki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dzem" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\dzem.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="klos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\klozy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="krowa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\krowa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\maka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mleko" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\mleko.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="owca" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\owca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ramka1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\ramka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="truskawki" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\truskawki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="welna" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\welna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="zeby" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\zeby.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="czerwonyTrojkat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\czerwonyTrojkat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="niebieskiKwadrat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\niebieskiKwadrat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="czerwonyProstokat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\czerwonyProstokat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pomaranczowyTrojkat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\z1p1\pomaranczowyTrojkat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ziolonyTrojkat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\ziolonyTrojkat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="zoltyKwadrat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p1\zoltyTrojkat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brakKasku" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\brakKasku.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brudnedlonie" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\brudnedlonie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="czerwonyProstokat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\czerwonyProstokat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="czysteDlonie" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\czysteDlonie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="czytanie" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\czytanie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="deska" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\deska.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="jajka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\jajka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kolano" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\kolano.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ksiazki" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\ksiazki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kura" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\kura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mlotek" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\mlotek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mydlo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\mydlo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="niebieskiProstokat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\niebieskiProstokat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pisanki" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\pisanki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="plot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\plot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pomaranczoweKolo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\pomaranczoweKolo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pomysl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\pomysl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ramka2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\ramka2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ramka3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\ramka3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dzem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\dzem.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rolki" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\z1p2\rolki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="zioloneKolo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z1p2\zioloneKolo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="krowa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\krowa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="czysteDlonie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\czysteDlonie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="niebieskiProstokat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\niebieskiProstokat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jajka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\jajka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mydlo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\mydlo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pisanki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\pisanki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brakKasku" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\brakKasku.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mleko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\mleko.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cukierki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\cukierki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="zolteKolo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\z1p2\zolteKolo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="musicOFF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musicOFF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kolano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\kolano.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\klozy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pomysl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\pomysl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zeby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\zeby.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pomaranczoweKolo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\pomaranczoweKolo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ue_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ue_logo.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="balonik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\balonik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="czerwonyTrojkat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\czerwonyTrojkat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ziolonyTrojkat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\ziolonyTrojkat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="czytanie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\czytanie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="owca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\owca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ramkaPion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ramkaPion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mlotek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\mlotek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="truskawki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\truskawki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="musicON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musicON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\maka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\next.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoltyKwadrat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\zoltyTrojkat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\plot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\kura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zioloneKolo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\zioloneKolo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ksiazki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\ksiazki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ramka3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ramka3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="no" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="niebieskiKwadrat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\niebieskiKwadrat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="welna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p1\welna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ramka2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ramka2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deska" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z1p2\deska.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ramkaPoziom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ramkaPoziom1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

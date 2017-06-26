@@ -19,7 +19,8 @@ namespace tosia
         public static string label_tekst7 = "Z tego taki morał mamy \nre re kum kum, re re kum kum \ntrzeba zawsze słuchać mamy \nre re kum kum bęc.";
         public static string label_EdukacjaMatematyczna = "Edukacja matematyczna w przedszkolu";
         public static string label_OperacjeLogiczne = "1. Operacje logiczne";
-        public static string label_Klasyfikacja = "A. Klasyfikacja";
+        public static string label_aMyślenie = "A. Myślenie przyczynowo-skutkowe";
+        public static string label_bKlasyfikacja = "B. Klasyfikacja";
         public static string label_LiczbaNat = "2. Liczba naturalna";
         public static string label_ArytmetykaLiczb = "3. Arytmetyka liczb naturalnych";
         public static string label_Geometria = "4. Geometria";

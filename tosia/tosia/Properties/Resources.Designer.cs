@@ -493,16 +493,6 @@ namespace tosia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ramka1 {
-            get {
-                object obj = ResourceManager.GetObject("ramka1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap ramka2 {
             get {
                 object obj = ResourceManager.GetObject("ramka2", resourceCulture);
@@ -516,6 +506,26 @@ namespace tosia.Properties {
         internal static System.Drawing.Bitmap ramka3 {
             get {
                 object obj = ResourceManager.GetObject("ramka3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ramkaPion {
+            get {
+                object obj = ResourceManager.GetObject("ramkaPion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ramkaPoziom {
+            get {
+                object obj = ResourceManager.GetObject("ramkaPoziom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

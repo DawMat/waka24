@@ -129,9 +129,6 @@
     <None Include="Resources\musicON.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ue_logo.JPG" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="bin\Debug\bylaSobieZabkaMala.wav" />
   </ItemGroup>
   <ItemGroup>
@@ -160,9 +157,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\z1p1\owca.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\z1p1\ramka.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\z1p1\truskawki.jpg" />
@@ -249,13 +243,22 @@
     <None Include="Resources\z1p2\zolteKolo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\z1p2\ramka2.jpg" />
+    <None Include="Resources\ramka.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\z1p2\ramka.jpg" />
+    <None Include="Resources\ramka2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\z1p2\ramka3.jpg" />
+    <None Include="Resources\ramka3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ramkaPion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ue_logo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ramkaPoziom1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
